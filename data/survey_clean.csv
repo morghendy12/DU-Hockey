@@ -1,0 +1,1105 @@
+ticket_type,relationship,income_band,zip,rel_group,Income Order,region,lat,long
+Single Game,Parent of Student/Alum,"$150,000 or more",01776,Parent,6,Out of state,42.3837,-71.4282
+Single Game,Other,"$150,000 or more",04021,Faculty/staff,6,Out of state,43.7974,-70.2649
+Single Game,Other,"$75,000-$99,999",04239,Faculty/staff,4,Out of state,44.516,-70.2099
+Single Game,Parent of Student/Alum,"$150,000 or more",08035,Parent,6,Out of state,39.8788,-75.0664
+Guest,Alumnus or Alumna,"$150,000 or more",11960,Alum,6,Out of state,40.8086,-72.7064
+Single Game,Alumnus or Alumna,,30101,Alum,,Out of state,34.0756,-84.6477
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",33469,Alum,6,Out of state,26.9831,-80.108
+DU Student,Current Undergraduate Student,"$100,000-$149,999",33602,Student,5,Out of state,27.9614,-82.4597
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",34105,Parent,6,Out of state,26.1938,-81.7636
+Single Game,General Fan,,34229,General fan,,Out of state,27.1838,-82.4853
+None,Other,"$150,000 or more",47119,Faculty/staff,6,Out of state,38.351,-85.8996
+None,General Fan,"$100,000-$149,999",48152,General fan,5,Out of state,42.4258,-83.3636
+Full/Half Season,General Fan,"$100,000-$149,999",49418,General fan,5,Out of state,42.8939,-85.7619
+Full/Half Season,General Fan,"$100,000-$149,999",49418,General fan,5,Out of state,42.8939,-85.7619
+Single Game,Other,"$150,000 or more",50323,Faculty/staff,6,Out of state,41.6294,-93.7717
+Single Game,Parent of Student/Alum,,53704,Parent,,Out of state,43.1205,-89.3523
+5-Game/Mini-Plan,Parent of Student/Alum,"$150,000 or more",55359,Parent,6,Out of state,44.9787,-93.7002
+DU Student,Current Undergraduate Student,,55386,Student,,Out of state,44.8582,-93.6561
+Single Game,General Fan,"$25,000-$49,999",55943,General fan,2,Out of state,43.7929,-91.5626
+Single Game,General Fan,"$25,000-$49,999",55943,General fan,2,Out of state,43.7929,-91.5626
+Single Game,Parent of Student/Alum,"$150,000 or more",60048,Parent,6,Out of state,42.281,-87.95
+Single Game,General Fan,,60203,General fan,,Out of state,42.0485,-87.7176
+DU Student,Current Undergraduate Student,"$100,000-$149,999",60446,Student,5,Out of state,41.6404,-88.0696
+DU Student,Current Undergraduate Student,,63122,Student,,Out of state,38.5773,-90.4242
+DU Student,Current Undergraduate Student,"$100,000-$149,999",65109,Student,5,Out of state,38.5773,-92.2443
+Single Game,Parent of Student/Alum,"$150,000 or more",65109,Parent,6,Out of state,38.5773,-92.2443
+Single Game,General Fan,"$75,000-$99,999",66503,General fan,4,Out of state,39.2458,-96.6336
+Single Game,Parent of Student/Alum,"$100,000-$149,999",75002,Parent,5,Out of state,33.0934,-96.6454
+Single Game,General Fan,"$150,000 or more",75229,General fan,6,Out of state,32.8958,-96.8588
+Single Game,General Fan,"$50,000-$74,999",76053,General fan,3,Out of state,32.8211,-97.1756
+Single Game,Alumnus or Alumna,"$150,000 or more",79912,Alum,6,Out of state,31.8383,-106.5364
+Guest,Current Faculty/Staff,"$100,000-$149,999",80002,Faculty/staff,5,West suburbs,39.7945,-105.0984
+Full/Half Season,General Fan,"$50,000-$74,999",80002,General fan,3,West suburbs,39.7945,-105.0984
+Full/Half Season,General Fan,,80003,General fan,,West suburbs,39.8286,-105.0655
+Full/Half Season,General Fan,"$100,000-$149,999",80003,General fan,5,West suburbs,39.8286,-105.0655
+Full/Half Season,General Fan,"$150,000 or more",80003,General fan,6,West suburbs,39.8286,-105.0655
+Single Game,General Fan,"$150,000 or more",80003,General fan,6,West suburbs,39.8286,-105.0655
+Single Game,Alumnus or Alumna,"$150,000 or more",80003,Alum,6,West suburbs,39.8286,-105.0655
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80004,General fan,6,West suburbs,39.8141,-105.1177
+Full/Half Season,General Fan,"$150,000 or more",80004,General fan,6,West suburbs,39.8141,-105.1177
+Full/Half Season,General Fan,"$150,000 or more",80004,General fan,6,West suburbs,39.8141,-105.1177
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80004,Alum,6,West suburbs,39.8141,-105.1177
+Full/Half Season,General Fan,"$150,000 or more",80004,General fan,6,West suburbs,39.8141,-105.1177
+DU Student,Current Undergraduate Student,"Less than $25,000",80004,Student,1,West suburbs,39.8141,-105.1177
+Single Game,General Fan,,80004,General fan,,West suburbs,39.8141,-105.1177
+Full/Half Season,General Fan,,80004,General fan,,West suburbs,39.8141,-105.1177
+5-Game/Mini-Plan,Alumnus or Alumna,"$100,000-$149,999",80005,Alum,5,West suburbs,39.8422,-105.1097
+Full/Half Season,General Fan,"$100,000-$149,999",80005,General fan,5,West suburbs,39.8422,-105.1097
+Full/Half Season,General Fan,"$150,000 or more",80005,General fan,6,West suburbs,39.8422,-105.1097
+None,Alumnus or Alumna,"$75,000-$99,999",80005,Alum,4,West suburbs,39.8422,-105.1097
+Full/Half Season,General Fan,"$150,000 or more",80007,General fan,6,West suburbs,39.8634,-105.1724
+Full/Half Season,General Fan,"$150,000 or more",80007,General fan,6,West suburbs,39.8634,-105.1724
+Full/Half Season,General Fan,"$150,000 or more",80007,General fan,6,West suburbs,39.8634,-105.1724
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80007,Alum,6,West suburbs,39.8634,-105.1724
+Full/Half Season,General Fan,"$150,000 or more",80007,General fan,6,West suburbs,39.8634,-105.1724
+Full/Half Season,Alumnus or Alumna,,80010,Alum,,South / southeast suburbs,39.7398,-104.8562
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80012,Alum,5,South / southeast suburbs,39.7038,-104.8379
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80012,Alum,6,South / southeast suburbs,39.7038,-104.8379
+Full/Half Season,Current Graduate Student,"$150,000 or more",80012,Student,6,South / southeast suburbs,39.7038,-104.8379
+Full/Half Season,General Fan,"$75,000-$99,999",80012,General fan,4,South / southeast suburbs,39.7038,-104.8379
+Single Game,Current Faculty/Staff,"$75,000-$99,999",80012,Faculty/staff,4,South / southeast suburbs,39.7038,-104.8379
+Single Game,General Fan,"$100,000-$149,999",80013,General fan,5,South / southeast suburbs,39.6604,-104.7632
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80013,Alum,6,South / southeast suburbs,39.6604,-104.7632
+None,Alumnus or Alumna,"$25,000-$49,999",80013,Alum,2,South / southeast suburbs,39.6604,-104.7632
+Full/Half Season,General Fan,"$25,000-$49,999",80013,General fan,2,South / southeast suburbs,39.6604,-104.7632
+Single Game,General Fan,"$50,000-$74,999",80013,General fan,3,South / southeast suburbs,39.6604,-104.7632
+Guest,General Fan,"$50,000-$74,999",80013,General fan,3,South / southeast suburbs,39.6604,-104.7632
+Guest,General Fan,"$50,000-$74,999",80013,General fan,3,South / southeast suburbs,39.6604,-104.7632
+Full/Half Season,General Fan,"$75,000-$99,999",80013,General fan,4,South / southeast suburbs,39.6604,-104.7632
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80013,Alum,4,South / southeast suburbs,39.6604,-104.7632
+None,General Fan,"$75,000-$99,999",80013,General fan,4,South / southeast suburbs,39.6604,-104.7632
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80013,Alum,4,South / southeast suburbs,39.6604,-104.7632
+Full/Half Season,Parent of Student/Alum,"$100,000-$149,999",80014,Parent,5,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,Current Faculty/Staff,"$100,000-$149,999",80014,Faculty/staff,5,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80014,Alum,5,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,General Fan,"$150,000 or more",80014,General fan,6,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,General Fan,"$150,000 or more",80014,General fan,6,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,General Fan,,80014,General fan,,South / southeast suburbs,39.6577,-104.845
+None,Alumnus or Alumna,,80014,Alum,,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,General Fan,,80014,General fan,,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,Parent of Student/Alum,,80014,Parent,,South / southeast suburbs,39.6577,-104.845
+Single Game,General Fan,,80014,General fan,,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,Parent of Student/Alum,,80014,Parent,,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,Alumnus or Alumna,,80014,Alum,,South / southeast suburbs,39.6577,-104.845
+Full/Half Season,Alumnus or Alumna,,80014,Alum,,South / southeast suburbs,39.6577,-104.845
+Single Game,General Fan,"$100,000-$149,999",80015,General fan,5,South / southeast suburbs,39.6199,-104.7763
+Single Game,Alumnus or Alumna,"$100,000-$149,999",80015,Alum,5,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$100,000-$149,999",80015,General fan,5,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$100,000-$149,999",80015,General fan,5,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$150,000 or more",80015,General fan,6,South / southeast suburbs,39.6199,-104.7763
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80015,General fan,6,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$150,000 or more",80015,General fan,6,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$150,000 or more",80015,General fan,6,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$150,000 or more",80015,General fan,6,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$50,000-$74,999",80015,General fan,3,South / southeast suburbs,39.6199,-104.7763
+DU Student,Current Undergraduate Student,"$50,000-$74,999",80015,Student,3,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80015,Alum,4,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80015,Alum,4,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$75,000-$99,999",80015,General fan,4,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,,80015,General fan,,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,,80015,General fan,,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,,80015,General fan,,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,,80015,General fan,,South / southeast suburbs,39.6199,-104.7763
+Full/Half Season,General Fan,"$100,000-$149,999",80016,General fan,5,South / southeast suburbs,39.6022,-104.7139
+Guest,Alumnus or Alumna,"$100,000-$149,999",80016,Alum,5,South / southeast suburbs,39.6022,-104.7139
+Single Game,General Fan,"$100,000-$149,999",80016,General fan,5,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,General Fan,"$150,000 or more",80016,General fan,6,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,General Fan,"$150,000 or more",80016,General fan,6,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,General Fan,"$150,000 or more",80016,General fan,6,South / southeast suburbs,39.6022,-104.7139
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80016,Alum,6,South / southeast suburbs,39.6022,-104.7139
+Single Game,General Fan,"$150,000 or more",80016,General fan,6,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80016,Alum,6,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,General Fan,"$150,000 or more",80016,General fan,6,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80016,Alum,6,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,General Fan,"$75,000-$99,999",80016,General fan,4,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,General Fan,"$75,000-$99,999",80016,General fan,4,South / southeast suburbs,39.6022,-104.7139
+Single Game,General Fan,"Less than $25,000",80016,General fan,1,South / southeast suburbs,39.6022,-104.7139
+Guest,General Fan,,80016,General fan,,South / southeast suburbs,39.6022,-104.7139
+Single Game,General Fan,,80016,General fan,,South / southeast suburbs,39.6022,-104.7139
+Single Game,General Fan,,80016,General fan,,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,Former Faculty/Staff,,80016,Faculty/staff,,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,Other,,80016,Faculty/staff,,South / southeast suburbs,39.6022,-104.7139
+Single Game,Other,,80016,Faculty/staff,,South / southeast suburbs,39.6022,-104.7139
+5-Game/Mini-Plan,Alumnus or Alumna,,80016,Alum,,South / southeast suburbs,39.6022,-104.7139
+Single Game,Parent of Student/Alum,,80016,Parent,,South / southeast suburbs,39.6022,-104.7139
+Full/Half Season,General Fan,"$150,000 or more",80018,General fan,6,South / southeast suburbs,39.6893,-104.6787
+Full/Half Season,General Fan,"$150,000 or more",80018,General fan,6,South / southeast suburbs,39.6893,-104.6787
+Single Game,General Fan,"$50,000-$74,999",80018,General fan,3,South / southeast suburbs,39.6893,-104.6787
+Full/Half Season,General Fan,,80018,General fan,,South / southeast suburbs,39.6893,-104.6787
+Full/Half Season,General Fan,"$100,000-$149,999",80020,General fan,5,North suburbs,39.9245,-105.0609
+Full/Half Season,General Fan,"$100,000-$149,999",80020,General fan,5,North suburbs,39.9245,-105.0609
+Single Game,General Fan,"$150,000 or more",80020,General fan,6,North suburbs,39.9245,-105.0609
+5-Game/Mini-Plan,Parent of Student/Alum,"$150,000 or more",80020,Parent,6,North suburbs,39.9245,-105.0609
+5-Game/Mini-Plan,Parent of Student/Alum,"$150,000 or more",80020,Parent,6,North suburbs,39.9245,-105.0609
+Full/Half Season,General Fan,"$150,000 or more",80020,General fan,6,North suburbs,39.9245,-105.0609
+DU Student,Current Graduate Student,"Less than $25,000",80020,Student,1,North suburbs,39.9245,-105.0609
+Full/Half Season,Parent of Student/Alum,,80020,Parent,,North suburbs,39.9245,-105.0609
+DU Student,Current Undergraduate Student,,80020,Student,,North suburbs,39.9245,-105.0609
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",80021,General fan,5,West suburbs,39.8854,-105.1139
+Full/Half Season,General Fan,"$100,000-$149,999",80021,General fan,5,West suburbs,39.8854,-105.1139
+Single Game,General Fan,"$150,000 or more",80021,General fan,6,West suburbs,39.8854,-105.1139
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80021,Alum,6,West suburbs,39.8854,-105.1139
+Full/Half Season,General Fan,"$150,000 or more",80021,General fan,6,West suburbs,39.8854,-105.1139
+Full/Half Season,General Fan,"$150,000 or more",80021,General fan,6,West suburbs,39.8854,-105.1139
+Full/Half Season,General Fan,"$100,000-$149,999",80022,General fan,5,North suburbs,39.8259,-104.9113
+Full/Half Season,General Fan,"$100,000-$149,999",80022,General fan,5,North suburbs,39.8259,-104.9113
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80022,Alum,5,North suburbs,39.8259,-104.9113
+Full/Half Season,General Fan,,80023,General fan,,North suburbs,39.9619,-105.0148
+Full/Half Season,General Fan,,80023,General fan,,North suburbs,39.9619,-105.0148
+Full/Half Season,General Fan,"$150,000 or more",80026,General fan,6,North suburbs,39.998,-105.0963
+Single Game,General Fan,"$150,000 or more",80026,General fan,6,North suburbs,39.998,-105.0963
+Full/Half Season,General Fan,"$150,000 or more",80026,General fan,6,North suburbs,39.998,-105.0963
+Full/Half Season,General Fan,"$150,000 or more",80027,General fan,6,North suburbs,39.9789,-105.1456
+Single Game,General Fan,"$150,000 or more",80027,General fan,6,North suburbs,39.9789,-105.1456
+Single Game,General Fan,"$50,000-$74,999",80027,General fan,3,North suburbs,39.9789,-105.1456
+Single Game,General Fan,"Less than $25,000",80027,General fan,1,North suburbs,39.9789,-105.1456
+DU Student,Current Graduate Student,"Less than $25,000",80027,Student,1,North suburbs,39.9789,-105.1456
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",80031,General fan,5,North suburbs,39.8753,-105.0345
+Full/Half Season,Current Graduate Student,"$150,000 or more",80031,Student,6,North suburbs,39.8753,-105.0345
+Single Game,General Fan,"$25,000-$49,999",80031,General fan,2,North suburbs,39.8753,-105.0345
+Full/Half Season,Other,"$50,000-$74,999",80031,Faculty/staff,3,North suburbs,39.8753,-105.0345
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80031,Alum,4,North suburbs,39.8753,-105.0345
+Full/Half Season,Alumnus or Alumna,,80031,Alum,,North suburbs,39.8753,-105.0345
+Single Game,General Fan,,80031,General fan,,North suburbs,39.8753,-105.0345
+Single Game,Alumnus or Alumna,"$150,000 or more",80033,Alum,6,West suburbs,39.774,-105.0962
+Guest,Other,,80104,Faculty/staff,,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,General Fan,"$100,000-$149,999",80104,General fan,5,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80104,Alum,6,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,General Fan,"$150,000 or more",80104,General fan,6,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,General Fan,"$150,000 or more",80104,General fan,6,South / southeast suburbs,39.3722,-104.8561
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80104,General fan,6,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80104,Alum,6,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,Other,"$150,000 or more",80104,Faculty/staff,6,South / southeast suburbs,39.3722,-104.8561
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80104,Alum,6,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,General Fan,"$50,000-$74,999",80104,General fan,3,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,General Fan,"Less than $25,000",80104,General fan,1,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,General Fan,,80104,General fan,,South / southeast suburbs,39.3722,-104.8561
+5-Game/Mini-Plan,Former Faculty/Staff,,80104,Faculty/staff,,South / southeast suburbs,39.3722,-104.8561
+Single Game,General Fan,,80104,General fan,,South / southeast suburbs,39.3722,-104.8561
+Full/Half Season,General Fan,"$25,000-$49,999",80107,General fan,2,Other Colorado,39.3836,-104.592
+Full/Half Season,General Fan,"$25,000-$49,999",80107,General fan,2,Other Colorado,39.3836,-104.592
+Full/Half Season,General Fan,"$100,000-$149,999",80108,General fan,5,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,General Fan,"$100,000-$149,999",80108,General fan,5,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80108,Alum,6,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80108,Parent,6,South / southeast suburbs,39.4455,-104.853
+Guest,General Fan,"$150,000 or more",80108,General fan,6,South / southeast suburbs,39.4455,-104.853
+Single Game,General Fan,"$150,000 or more",80108,General fan,6,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,General Fan,"$150,000 or more",80108,General fan,6,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80108,Alum,6,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80108,Alum,6,South / southeast suburbs,39.4455,-104.853
+Single Game,General Fan,"$150,000 or more",80108,General fan,6,South / southeast suburbs,39.4455,-104.853
+DU Student,Current Undergraduate Student,"$25,000-$49,999",80108,Student,2,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,General Fan,"$75,000-$99,999",80108,General fan,4,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,Alumnus or Alumna,,80108,Alum,,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,General Fan,,80108,General fan,,South / southeast suburbs,39.4455,-104.853
+5-Game/Mini-Plan,General Fan,,80108,General fan,,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,Alumnus or Alumna,,80108,Alum,,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,General Fan,"$100,000-$149,999",80109,General fan,5,South / southeast suburbs,39.3643,-104.9014
+Full/Half Season,General Fan,,80109,General fan,,South / southeast suburbs,39.3643,-104.9014
+Single Game,General Fan,"$50,000-$74,999",80110,General fan,3,South / southeast suburbs,39.6463,-105.0092
+Full/Half Season,General Fan,"$100,000-$149,999",80111,General fan,5,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80111,Alum,5,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,"$100,000-$149,999",80111,General fan,5,South / southeast suburbs,39.6123,-104.8799
+Single Game,General Fan,"$150,000 or more",80111,General fan,6,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,"$150,000 or more",80111,General fan,6,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,"$150,000 or more",80111,General fan,6,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80111,Alum,6,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80111,Alum,6,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,"$150,000 or more",80111,General fan,6,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,"$50,000-$74,999",80111,General fan,3,South / southeast suburbs,39.6123,-104.8799
+Single Game,Alumnus or Alumna,,80111,Alum,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,Alumnus or Alumna,,80111,Alum,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,Parent of Student/Alum,,80111,Parent,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,,80111,General fan,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,,80111,General fan,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,,80111,General fan,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,,80111,General fan,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,General Fan,,80111,General fan,,South / southeast suburbs,39.6123,-104.8799
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80112,Alum,6,South / southeast suburbs,39.5805,-104.9011
+Single Game,General Fan,"$150,000 or more",80112,General fan,6,South / southeast suburbs,39.5805,-104.9011
+DU Student,Current Undergraduate Student,"$150,000 or more",80112,Student,6,South / southeast suburbs,39.5805,-104.9011
+5-Game/Mini-Plan,Current Faculty/Staff,"$150,000 or more",80112,Faculty/staff,6,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,General Fan,"$150,000 or more",80112,General fan,6,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,General Fan,"$150,000 or more",80112,General fan,6,South / southeast suburbs,39.5805,-104.9011
+Single Game,Alumnus or Alumna,"$150,000 or more",80112,Alum,6,South / southeast suburbs,39.5805,-104.9011
+Guest,General Fan,"$150,000 or more",80112,General fan,6,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80112,Alum,6,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80112,Alum,6,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80112,Alum,6,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,General Fan,"$75,000-$99,999",80112,General fan,4,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80112,Alum,4,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,General Fan,,80112,General fan,,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,General Fan,,80112,General fan,,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,General Fan,,80112,General fan,,South / southeast suburbs,39.5805,-104.9011
+Guest,Parent of Student/Alum,,80112,Parent,,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,Alumnus or Alumna,,80112,Alum,,South / southeast suburbs,39.5805,-104.9011
+Full/Half Season,General Fan,,80112,General fan,,South / southeast suburbs,39.5805,-104.9011
+5-Game/Mini-Plan,Former Faculty/Staff,"$100,000-$149,999",80113,Faculty/staff,5,South / southeast suburbs,39.6405,-104.9614
+Single Game,Current Faculty/Staff,"$150,000 or more",80113,Faculty/staff,6,South / southeast suburbs,39.6405,-104.9614
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80113,Alum,6,South / southeast suburbs,39.6405,-104.9614
+Full/Half Season,General Fan,"$150,000 or more",80113,General fan,6,South / southeast suburbs,39.6405,-104.9614
+Full/Half Season,Other,"$150,000 or more",80113,Faculty/staff,6,South / southeast suburbs,39.6405,-104.9614
+Full/Half Season,General Fan,"$150,000 or more",80113,General fan,6,South / southeast suburbs,39.6405,-104.9614
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80113,General fan,6,South / southeast suburbs,39.6405,-104.9614
+Single Game,Former Faculty/Staff,"$150,000 or more",80113,Faculty/staff,6,South / southeast suburbs,39.6405,-104.9614
+Full/Half Season,Other,"$150,000 or more",80113,Faculty/staff,6,South / southeast suburbs,39.6405,-104.9614
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80113,Alum,6,South / southeast suburbs,39.6405,-104.9614
+Single Game,Alumnus or Alumna,"$150,000 or more",80113,Alum,6,South / southeast suburbs,39.6405,-104.9614
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80113,General fan,6,South / southeast suburbs,39.6405,-104.9614
+Single Game,Alumnus or Alumna,"$50,000-$74,999",80113,Alum,3,South / southeast suburbs,39.6405,-104.9614
+Full/Half Season,General Fan,"$150,000 or more",80116,General fan,6,South / southeast suburbs,39.3728,-104.7256
+Single Game,Alumnus or Alumna,"$100,000-$149,999",80120,Alum,5,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80120,Alum,5,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$100,000-$149,999",80120,General fan,5,South / southeast suburbs,39.5994,-105.0044
+Single Game,Alumnus or Alumna,"$100,000-$149,999",80120,Alum,5,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$100,000-$149,999",80120,General fan,5,South / southeast suburbs,39.5994,-105.0044
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80120,Alum,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,Former Faculty/Staff,"$150,000 or more",80120,Faculty/staff,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$150,000 or more",80120,General fan,6,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,Parent of Student/Alum,"$50,000-$74,999",80120,Parent,3,South / southeast suburbs,39.5994,-105.0044
+Single Game,General Fan,"$50,000-$74,999",80120,General fan,3,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$50,000-$74,999",80120,General fan,3,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,"$50,000-$74,999",80120,General fan,3,South / southeast suburbs,39.5994,-105.0044
+Single Game,General Fan,"$50,000-$74,999",80120,General fan,3,South / southeast suburbs,39.5994,-105.0044
+Single Game,Current Faculty/Staff,"$75,000-$99,999",80120,Faculty/staff,4,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,Parent of Student/Alum,"$75,000-$99,999",80120,Parent,4,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,Parent of Student/Alum,"$75,000-$99,999",80120,Parent,4,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,,80120,General fan,,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,,80120,General fan,,South / southeast suburbs,39.5994,-105.0044
+Full/Half Season,General Fan,,80120,General fan,,South / southeast suburbs,39.5994,-105.0044
+Single Game,General Fan,,80121,General fan,,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$100,000-$149,999",80121,General fan,5,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$150,000 or more",80121,General fan,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$150,000 or more",80121,General fan,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$150,000 or more",80121,General fan,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80121,Alum,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$150,000 or more",80121,General fan,6,South / southeast suburbs,39.6111,-104.9532
+Single Game,Alumnus or Alumna,"$150,000 or more",80121,Alum,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80121,Parent,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$150,000 or more",80121,General fan,6,South / southeast suburbs,39.6111,-104.9532
+Single Game,Alumnus or Alumna,"$150,000 or more",80121,Alum,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80121,Alum,6,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$150,000 or more",80121,General fan,6,South / southeast suburbs,39.6111,-104.9532
+Single Game,General Fan,"$150,000 or more",80121,General fan,6,South / southeast suburbs,39.6111,-104.9532
+Single Game,General Fan,"$50,000-$74,999",80121,General fan,3,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,"$75,000-$99,999",80121,General fan,4,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,Alumnus or Alumna,,80121,Alum,,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,General Fan,,80121,General fan,,South / southeast suburbs,39.6111,-104.9532
+DU Student,Current Graduate Student,,80121,Student,,South / southeast suburbs,39.6111,-104.9532
+Single Game,General Fan,,80121,General fan,,South / southeast suburbs,39.6111,-104.9532
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80122,Alum,5,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,General Fan,"$100,000-$149,999",80122,General fan,5,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,General Fan,"$100,000-$149,999",80122,General fan,5,South / southeast suburbs,39.5814,-104.9557
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80122,General fan,6,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80122,Alum,6,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80122,Alum,6,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80122,Alum,6,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,General Fan,"$150,000 or more",80122,General fan,6,South / southeast suburbs,39.5814,-104.9557
+Single Game,Alumnus or Alumna,"$150,000 or more",80122,Alum,6,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80122,Alum,6,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80122,Alum,6,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80122,Alum,6,South / southeast suburbs,39.5814,-104.9557
+Single Game,Parent of Student/Alum,"$150,000 or more",80122,Parent,6,South / southeast suburbs,39.5814,-104.9557
+Single Game,General Fan,"$50,000-$74,999",80122,General fan,3,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,General Fan,"$50,000-$74,999",80122,General fan,3,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,General Fan,,80122,General fan,,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,,80122,Alum,,South / southeast suburbs,39.5814,-104.9557
+Single Game,Other,,80122,Faculty/staff,,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,General Fan,,80122,General fan,,South / southeast suburbs,39.5814,-104.9557
+5-Game/Mini-Plan,General Fan,,80122,General fan,,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,Alumnus or Alumna,,80122,Alum,,South / southeast suburbs,39.5814,-104.9557
+Full/Half Season,General Fan,,80122,General fan,,South / southeast suburbs,39.5814,-104.9557
+DU Student,Current Graduate Student,"$100,000-$149,999",80123,Student,5,West suburbs,39.6206,-105.0901
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80123,Alum,5,West suburbs,39.6206,-105.0901
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80123,Alum,5,West suburbs,39.6206,-105.0901
+Full/Half Season,General Fan,"$100,000-$149,999",80123,General fan,5,West suburbs,39.6206,-105.0901
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80123,Alum,6,West suburbs,39.6206,-105.0901
+Single Game,General Fan,"$150,000 or more",80123,General fan,6,West suburbs,39.6206,-105.0901
+Single Game,Alumnus or Alumna,"$150,000 or more",80123,Alum,6,West suburbs,39.6206,-105.0901
+Full/Half Season,General Fan,"$150,000 or more",80123,General fan,6,West suburbs,39.6206,-105.0901
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80123,Alum,6,West suburbs,39.6206,-105.0901
+Full/Half Season,General Fan,"$75,000-$99,999",80123,General fan,4,West suburbs,39.6206,-105.0901
+Full/Half Season,Other,"$75,000-$99,999",80123,Faculty/staff,4,West suburbs,39.6206,-105.0901
+Full/Half Season,General Fan,"$75,000-$99,999",80123,General fan,4,West suburbs,39.6206,-105.0901
+Full/Half Season,General Fan,"$75,000-$99,999",80123,General fan,4,West suburbs,39.6206,-105.0901
+Full/Half Season,Parent of Student/Alum,,80123,Parent,,West suburbs,39.6206,-105.0901
+Single Game,Alumnus or Alumna,,80123,Alum,,West suburbs,39.6206,-105.0901
+None,General Fan,,80123,General fan,,West suburbs,39.6206,-105.0901
+Full/Half Season,General Fan,,80123,General fan,,West suburbs,39.6206,-105.0901
+Full/Half Season,Parent of Student/Alum,"$100,000-$149,999",80124,Parent,5,South / southeast suburbs,39.5517,-104.8863
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",80124,General fan,5,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$100,000-$149,999",80124,General fan,5,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80124,Parent,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$150,000 or more",80124,General fan,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$150,000 or more",80124,General fan,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80124,Alum,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80124,Parent,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$150,000 or more",80124,General fan,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$150,000 or more",80124,General fan,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$150,000 or more",80124,General fan,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$150,000 or more",80124,General fan,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,Other,"$150,000 or more",80124,Faculty/staff,6,South / southeast suburbs,39.5517,-104.8863
+Full/Half Season,General Fan,"$75,000-$99,999",80124,General fan,4,South / southeast suburbs,39.5517,-104.8863
+Single Game,General Fan,"$150,000 or more",80125,General fan,6,South / southeast suburbs,39.4845,-105.0561
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80125,Parent,6,South / southeast suburbs,39.4845,-105.0561
+Full/Half Season,General Fan,"$150,000 or more",80125,General fan,6,South / southeast suburbs,39.4845,-105.0561
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80125,Alum,6,South / southeast suburbs,39.4845,-105.0561
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80125,Parent,6,South / southeast suburbs,39.4845,-105.0561
+Single Game,General Fan,"$150,000 or more",80125,General fan,6,South / southeast suburbs,39.4845,-105.0561
+Single Game,Alumnus or Alumna,"$75,000-$99,999",80125,Alum,4,South / southeast suburbs,39.4845,-105.0561
+Single Game,General Fan,,80125,General fan,,South / southeast suburbs,39.4845,-105.0561
+Full/Half Season,General Fan,,80125,General fan,,South / southeast suburbs,39.4845,-105.0561
+5-Game/Mini-Plan,General Fan,,80125,General fan,,South / southeast suburbs,39.4845,-105.0561
+Full/Half Season,Other,"$100,000-$149,999",80126,Faculty/staff,5,South / southeast suburbs,39.5437,-104.9691
+Single Game,General Fan,"$100,000-$149,999",80126,General fan,5,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80126,Alum,5,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,"$100,000-$149,999",80126,General fan,5,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80126,Alum,5,South / southeast suburbs,39.5437,-104.9691
+5-Game/Mini-Plan,Parent of Student/Alum,"$100,000-$149,999",80126,Parent,5,South / southeast suburbs,39.5437,-104.9691
+Single Game,General Fan,"$150,000 or more",80126,General fan,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,"$150,000 or more",80126,General fan,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,"$150,000 or more",80126,General fan,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80126,Alum,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80126,Alum,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80126,Alum,6,South / southeast suburbs,39.5437,-104.9691
+5-Game/Mini-Plan,Current Faculty/Staff,"$150,000 or more",80126,Faculty/staff,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80126,Parent,6,South / southeast suburbs,39.5437,-104.9691
+Single Game,General Fan,"$150,000 or more",80126,General fan,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80126,Alum,6,South / southeast suburbs,39.5437,-104.9691
+Single Game,General Fan,"$150,000 or more",80126,General fan,6,South / southeast suburbs,39.5437,-104.9691
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80126,General fan,6,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,"$150,000 or more",80126,General fan,6,South / southeast suburbs,39.5437,-104.9691
+5-Game/Mini-Plan,Parent of Student/Alum,"$75,000-$99,999",80126,Parent,4,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,"$75,000-$99,999",80126,General fan,4,South / southeast suburbs,39.5437,-104.9691
+Single Game,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Single Game,General Fan,,80126,General fan,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,Parent of Student/Alum,,80126,Parent,,South / southeast suburbs,39.5437,-104.9691
+Full/Half Season,General Fan,"$100,000-$149,999",80127,General fan,5,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$100,000-$149,999",80127,General fan,5,West suburbs,39.592,-105.1328
+Full/Half Season,Other,"$100,000-$149,999",80127,Faculty/staff,5,West suburbs,39.592,-105.1328
+Single Game,General Fan,"$100,000-$149,999",80127,General fan,5,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$100,000-$149,999",80127,General fan,5,West suburbs,39.592,-105.1328
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80127,Alum,5,West suburbs,39.592,-105.1328
+Full/Half Season,Parent of Student/Alum,"$100,000-$149,999",80127,Parent,5,West suburbs,39.592,-105.1328
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80127,Alum,6,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$150,000 or more",80127,General fan,6,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$150,000 or more",80127,General fan,6,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$150,000 or more",80127,General fan,6,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$150,000 or more",80127,General fan,6,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$150,000 or more",80127,General fan,6,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$150,000 or more",80127,General fan,6,West suburbs,39.592,-105.1328
+Single Game,General Fan,"$50,000-$74,999",80127,General fan,3,West suburbs,39.592,-105.1328
+Single Game,General Fan,"$50,000-$74,999",80127,General fan,3,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$75,000-$99,999",80127,General fan,4,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$75,000-$99,999",80127,General fan,4,West suburbs,39.592,-105.1328
+DU Student,Current Undergraduate Student,"$75,000-$99,999",80127,Student,4,West suburbs,39.592,-105.1328
+Guest,Alumnus or Alumna,,80127,Alum,,West suburbs,39.592,-105.1328
+Full/Half Season,Alumnus or Alumna,,80127,Alum,,West suburbs,39.592,-105.1328
+Full/Half Season,Former Faculty/Staff,,80127,Faculty/staff,,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,,80127,General fan,,West suburbs,39.592,-105.1328
+Full/Half Season,Alumnus or Alumna,,80127,Alum,,West suburbs,39.592,-105.1328
+Single Game,General Fan,,80127,General fan,,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,,80127,General fan,,West suburbs,39.592,-105.1328
+Full/Half Season,General Fan,"$100,000-$149,999",80128,General fan,5,West suburbs,39.5918,-105.0832
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80128,Alum,5,West suburbs,39.5918,-105.0832
+Full/Half Season,General Fan,"$100,000-$149,999",80128,General fan,5,West suburbs,39.5918,-105.0832
+Full/Half Season,General Fan,"$100,000-$149,999",80128,General fan,5,West suburbs,39.5918,-105.0832
+Full/Half Season,General Fan,"$150,000 or more",80128,General fan,6,West suburbs,39.5918,-105.0832
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80128,Alum,6,West suburbs,39.5918,-105.0832
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80128,Alum,6,West suburbs,39.5918,-105.0832
+Full/Half Season,General Fan,"$150,000 or more",80128,General fan,6,West suburbs,39.5918,-105.0832
+Guest,Other,"$25,000-$49,999",80128,Faculty/staff,2,West suburbs,39.5918,-105.0832
+Guest,General Fan,"$25,000-$49,999",80128,General fan,2,West suburbs,39.5918,-105.0832
+Single Game,Current Faculty/Staff,,80128,Faculty/staff,,West suburbs,39.5918,-105.0832
+Single Game,General Fan,,80128,General fan,,West suburbs,39.5918,-105.0832
+Full/Half Season,Alumnus or Alumna,,80128,Alum,,West suburbs,39.5918,-105.0832
+Full/Half Season,General Fan,,80128,General fan,,West suburbs,39.5918,-105.0832
+Single Game,General Fan,,80128,General fan,,West suburbs,39.5918,-105.0832
+Full/Half Season,General Fan,"$100,000-$149,999",80129,General fan,5,South / southeast suburbs,39.5397,-105.0109
+Single Game,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80129,Alum,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,Current Faculty/Staff,"$150,000 or more",80129,Faculty/staff,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80129,Alum,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80129,Parent,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80129,General fan,6,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,Alumnus or Alumna,"$50,000-$74,999",80129,Alum,3,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,,80129,General fan,,South / southeast suburbs,39.5397,-105.0109
+Single Game,Current Faculty/Staff,,80129,Faculty/staff,,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,Alumnus or Alumna,,80129,Alum,,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,,80129,General fan,,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,,80129,General fan,,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,General Fan,,80129,General fan,,South / southeast suburbs,39.5397,-105.0109
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80130,Alum,6,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80130,Alum,6,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80130,Alum,6,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,General Fan,"$150,000 or more",80130,General fan,6,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80130,Alum,6,South / southeast suburbs,39.5414,-104.9218
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80130,Alum,6,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,General Fan,"$150,000 or more",80130,General fan,6,South / southeast suburbs,39.5414,-104.9218
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80130,General fan,6,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,General Fan,"$150,000 or more",80130,General fan,6,South / southeast suburbs,39.5414,-104.9218
+Single Game,General Fan,"Less than $25,000",80130,General fan,1,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,Alumnus or Alumna,,80130,Alum,,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,General Fan,,80130,General fan,,South / southeast suburbs,39.5414,-104.9218
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80132,Parent,6,Other Colorado,39.1007,-104.8542
+Full/Half Season,General Fan,"$75,000-$99,999",80132,General fan,4,Other Colorado,39.1007,-104.8542
+Single Game,General Fan,"$100,000-$149,999",80134,General fan,5,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$100,000-$149,999",80134,General fan,5,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,Current Graduate Student,"$100,000-$149,999",80134,Student,5,South / southeast suburbs,39.4895,-104.8447
+Single Game,General Fan,"$100,000-$149,999",80134,General fan,5,South / southeast suburbs,39.4895,-104.8447
+Guest,General Fan,"$100,000-$149,999",80134,General fan,5,South / southeast suburbs,39.4895,-104.8447
+DU Student,Current Graduate Student,"$100,000-$149,999",80134,Student,5,South / southeast suburbs,39.4895,-104.8447
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",80134,General fan,5,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80134,Alum,6,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Single Game,Alumnus or Alumna,"$150,000 or more",80134,Alum,6,South / southeast suburbs,39.4895,-104.8447
+Single Game,Parent of Student/Alum,"$150,000 or more",80134,Parent,6,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Guest,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80134,General fan,6,South / southeast suburbs,39.4895,-104.8447
+Single Game,General Fan,"$25,000-$49,999",80134,General fan,2,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$50,000-$74,999",80134,General fan,3,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$75,000-$99,999",80134,General fan,4,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$75,000-$99,999",80134,General fan,4,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,Parent of Student/Alum,,80134,Parent,,South / southeast suburbs,39.4895,-104.8447
+Single Game,Alumnus or Alumna,,80134,Alum,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,Alumnus or Alumna,,80134,Alum,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,Alumnus or Alumna,,80134,Alum,,South / southeast suburbs,39.4895,-104.8447
+5-Game/Mini-Plan,Alumnus or Alumna,,80134,Alum,,South / southeast suburbs,39.4895,-104.8447
+Single Game,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Single Game,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Single Game,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Single Game,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,Alumnus or Alumna,,80134,Alum,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,,80134,General fan,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,Alumnus or Alumna,,80134,Alum,,South / southeast suburbs,39.4895,-104.8447
+DU Student,Current Undergraduate Student,,80134,Student,,South / southeast suburbs,39.4895,-104.8447
+Full/Half Season,General Fan,"$150,000 or more",80137,General fan,6,South / southeast suburbs,39.7623,-104.5834
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80138,Alum,5,South / southeast suburbs,39.5102,-104.7216
+Full/Half Season,General Fan,"$100,000-$149,999",80138,General fan,5,South / southeast suburbs,39.5102,-104.7216
+Full/Half Season,General Fan,"$150,000 or more",80138,General fan,6,South / southeast suburbs,39.5102,-104.7216
+Single Game,Alumnus or Alumna,"$150,000 or more",80138,Alum,6,South / southeast suburbs,39.5102,-104.7216
+Single Game,General Fan,"$75,000-$99,999",80138,General fan,4,South / southeast suburbs,39.5102,-104.7216
+Guest,Current Faculty/Staff,,80138,Faculty/staff,,South / southeast suburbs,39.5102,-104.7216
+Full/Half Season,General Fan,,80138,General fan,,South / southeast suburbs,39.5102,-104.7216
+Full/Half Season,General Fan,,80138,General fan,,South / southeast suburbs,39.5102,-104.7216
+Full/Half Season,General Fan,,80138,General fan,,South / southeast suburbs,39.5102,-104.7216
+Full/Half Season,General Fan,,80138,General fan,,South / southeast suburbs,39.5102,-104.7216
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80202,Alum,5,Denver,39.7491,-104.9946
+Single Game,General Fan,"$150,000 or more",80202,General fan,6,Denver,39.7491,-104.9946
+Full/Half Season,General Fan,"$150,000 or more",80202,General fan,6,Denver,39.7491,-104.9946
+Single Game,General Fan,"$150,000 or more",80202,General fan,6,Denver,39.7491,-104.9946
+Full/Half Season,General Fan,"$50,000-$74,999",80202,General fan,3,Denver,39.7491,-104.9946
+DU Student,Current Graduate Student,,80202,Student,,Denver,39.7491,-104.9946
+Full/Half Season,General Fan,"$100,000-$149,999",80203,General fan,5,Denver,39.7313,-104.9811
+Single Game,General Fan,"$150,000 or more",80203,General fan,6,Denver,39.7313,-104.9811
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80203,Alum,6,Denver,39.7313,-104.9811
+Single Game,Alumnus or Alumna,"$75,000-$99,999",80203,Alum,4,Denver,39.7313,-104.9811
+Full/Half Season,General Fan,"$75,000-$99,999",80203,General fan,4,Denver,39.7313,-104.9811
+Guest,Alumnus or Alumna,"$150,000 or more",80204,Alum,6,Denver,39.734,-105.0259
+Full/Half Season,General Fan,"$25,000-$49,999",80204,General fan,2,Denver,39.734,-105.0259
+Single Game,General Fan,"$50,000-$74,999",80204,General fan,3,Denver,39.734,-105.0259
+Guest,General Fan,"$75,000-$99,999",80204,General fan,4,Denver,39.734,-105.0259
+DU Student,Current Graduate Student,"$75,000-$99,999",80204,Student,4,Denver,39.734,-105.0259
+Full/Half Season,General Fan,"$75,000-$99,999",80204,General fan,4,Denver,39.734,-105.0259
+DU Student,Current Graduate Student,"Less than $25,000",80204,Student,1,Denver,39.734,-105.0259
+Single Game,General Fan,,80204,General fan,,Denver,39.734,-105.0259
+Guest,General Fan,,80204,General fan,,Denver,39.734,-105.0259
+Full/Half Season,General Fan,,80204,General fan,,Denver,39.734,-105.0259
+Single Game,Alumnus or Alumna,"$100,000-$149,999",80205,Alum,5,Denver,39.759,-104.9661
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80205,Alum,6,Denver,39.759,-104.9661
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80205,Alum,6,Denver,39.759,-104.9661
+5-Game/Mini-Plan,General Fan,"$75,000-$99,999",80205,General fan,4,Denver,39.759,-104.9661
+Full/Half Season,Former Faculty/Staff,"$150,000 or more",80206,Faculty/staff,6,Denver,39.7331,-104.9524
+Full/Half Season,General Fan,"$150,000 or more",80206,General fan,6,Denver,39.7331,-104.9524
+Single Game,General Fan,"$150,000 or more",80206,General fan,6,Denver,39.7331,-104.9524
+5-Game/Mini-Plan,Current Faculty/Staff,"$150,000 or more",80206,Faculty/staff,6,Denver,39.7331,-104.9524
+Full/Half Season,General Fan,"$150,000 or more",80206,General fan,6,Denver,39.7331,-104.9524
+Full/Half Season,Alumnus or Alumna,"$25,000-$49,999",80206,Alum,2,Denver,39.7331,-104.9524
+Single Game,Alumnus or Alumna,"$75,000-$99,999",80206,Alum,4,Denver,39.7331,-104.9524
+Single Game,Current Faculty/Staff,"Less than $25,000",80206,Faculty/staff,1,Denver,39.7331,-104.9524
+None,Other,,80206,Faculty/staff,,Denver,39.7331,-104.9524
+Full/Half Season,Parent of Student/Alum,,80206,Parent,,Denver,39.7331,-104.9524
+DU Student,Current Undergraduate Student,,80206,Student,,Denver,39.7331,-104.9524
+Full/Half Season,General Fan,"$150,000 or more",80207,General fan,6,Denver,39.7584,-104.9177
+Single Game,General Fan,"$150,000 or more",80207,General fan,6,Denver,39.7584,-104.9177
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80207,Alum,6,Denver,39.7584,-104.9177
+Full/Half Season,General Fan,"$150,000 or more",80207,General fan,6,Denver,39.7584,-104.9177
+Full/Half Season,General Fan,,80207,General fan,,Denver,39.7584,-104.9177
+Single Game,General Fan,,80207,General fan,,Denver,39.7584,-104.9177
+Full/Half Season,Other,,80207,Faculty/staff,,Denver,39.7584,-104.9177
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80208,Alum,6,Denver,39.7392,-104.9847
+Full/Half Season,Current Faculty/Staff,,80208,Faculty/staff,,Denver,39.7392,-104.9847
+Full/Half Season,Current Faculty/Staff,,80208,Faculty/staff,,Denver,39.7392,-104.9847
+Full/Half Season,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$100,000-$149,999",80209,General fan,5,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$100,000-$149,999",80209,General fan,5,Denver,39.7074,-104.9686
+Full/Half Season,Other,"$100,000-$149,999",80209,Faculty/staff,5,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$150,000 or more",80209,General fan,6,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80209,Alum,6,Denver,39.7074,-104.9686
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80209,Parent,6,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80209,Alum,6,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80209,Alum,6,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$150,000 or more",80209,General fan,6,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$150,000 or more",80209,General fan,6,Denver,39.7074,-104.9686
+Single Game,General Fan,"$150,000 or more",80209,General fan,6,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$150,000 or more",80209,General fan,6,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$150,000 or more",80209,General fan,6,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$150,000 or more",80209,General fan,6,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,"$50,000-$74,999",80209,General fan,3,Denver,39.7074,-104.9686
+Single Game,Parent of Student/Alum,"$50,000-$74,999",80209,Parent,3,Denver,39.7074,-104.9686
+Single Game,Alumnus or Alumna,"$50,000-$74,999",80209,Alum,3,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,"$50,000-$74,999",80209,Alum,3,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80209,Alum,4,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80209,Alum,4,Denver,39.7074,-104.9686
+Single Game,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,,80209,Alum,,Denver,39.7074,-104.9686
+Single Game,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,,80209,Alum,,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,General Fan,,80209,General fan,,Denver,39.7074,-104.9686
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80210,Alum,5,Denver,39.679,-104.9631
+Single Game,General Fan,"$100,000-$149,999",80210,General fan,5,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80210,Alum,5,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$100,000-$149,999",80210,General fan,5,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$100,000-$149,999",80210,General fan,5,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"$100,000-$149,999",80210,Student,5,Denver,39.679,-104.9631
+Single Game,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Single Game,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80210,Parent,6,Denver,39.679,-104.9631
+Single Game,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"$150,000 or more",80210,Student,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Single Game,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Single Game,Current Faculty/Staff,"$150,000 or more",80210,Faculty/staff,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Guest,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,Other,"$150,000 or more",80210,Faculty/staff,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"$150,000 or more",80210,Student,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,Current Faculty/Staff,"$150,000 or more",80210,Faculty/staff,6,Denver,39.679,-104.9631
+Single Game,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Full/Half Season,Current Faculty/Staff,"$150,000 or more",80210,Faculty/staff,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80210,Parent,6,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80210,General fan,6,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80210,Alum,6,Denver,39.679,-104.9631
+Single Game,General Fan,"$25,000-$49,999",80210,General fan,2,Denver,39.679,-104.9631
+Single Game,Current Faculty/Staff,"$50,000-$74,999",80210,Faculty/staff,3,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,"$50,000-$74,999",80210,Alum,3,Denver,39.679,-104.9631
+Guest,Current Faculty/Staff,"$50,000-$74,999",80210,Faculty/staff,3,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"$50,000-$74,999",80210,Student,3,Denver,39.679,-104.9631
+5-Game/Mini-Plan,General Fan,"$50,000-$74,999",80210,General fan,3,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$75,000-$99,999",80210,General fan,4,Denver,39.679,-104.9631
+Full/Half Season,General Fan,"$75,000-$99,999",80210,General fan,4,Denver,39.679,-104.9631
+Full/Half Season,Current Faculty/Staff,"$75,000-$99,999",80210,Faculty/staff,4,Denver,39.679,-104.9631
+DU Student,Current Graduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+DU Student,Current Graduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+Guest,General Fan,"Less than $25,000",80210,General fan,1,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+DU Student,Current Graduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+DU Student,Current Graduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,"Less than $25,000",80210,Student,1,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,,80210,Alum,,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,,80210,Alum,,Denver,39.679,-104.9631
+Full/Half Season,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+Single Game,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+Full/Half Season,Alumnus or Alumna,,80210,Alum,,Denver,39.679,-104.9631
+Full/Half Season,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,,80210,Student,,Denver,39.679,-104.9631
+Full/Half Season,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+Single Game,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+Full/Half Season,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,,80210,Student,,Denver,39.679,-104.9631
+Guest,Other,,80210,Faculty/staff,,Denver,39.679,-104.9631
+Full/Half Season,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,,80210,Student,,Denver,39.679,-104.9631
+DU Student,Current Undergraduate Student,,80210,Student,,Denver,39.679,-104.9631
+Full/Half Season,General Fan,,80210,General fan,,Denver,39.679,-104.9631
+Guest,Parent of Student/Alum,,80210,Parent,,Denver,39.679,-104.9631
+Full/Half Season,Other,"$150,000 or more",80211,Faculty/staff,6,Denver,39.7665,-105.0204
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80211,Alum,6,Denver,39.7665,-105.0204
+Guest,General Fan,"$75,000-$99,999",80211,General fan,4,Denver,39.7665,-105.0204
+DU Student,Current Graduate Student,"$75,000-$99,999",80211,Student,4,Denver,39.7665,-105.0204
+Single Game,General Fan,,80211,General fan,,Denver,39.7665,-105.0204
+Full/Half Season,Alumnus or Alumna,,80211,Alum,,Denver,39.7665,-105.0204
+Full/Half Season,General Fan,,80211,General fan,,Denver,39.7665,-105.0204
+Full/Half Season,General Fan,,80211,General fan,,Denver,39.7665,-105.0204
+Single Game,General Fan,,80211,General fan,,Denver,39.7665,-105.0204
+Full/Half Season,General Fan,"$150,000 or more",80212,General fan,6,Denver,39.7683,-105.0493
+Full/Half Season,General Fan,"$150,000 or more",80212,General fan,6,Denver,39.7683,-105.0493
+Full/Half Season,General Fan,,80212,General fan,,Denver,39.7683,-105.0493
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80214,Alum,6,West suburbs,39.7436,-105.0643
+Full/Half Season,General Fan,,80214,General fan,,West suburbs,39.7436,-105.0643
+Full/Half Season,Alumnus or Alumna,,80214,Alum,,West suburbs,39.7436,-105.0643
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80215,Alum,5,West suburbs,39.7435,-105.1009
+Full/Half Season,General Fan,"$150,000 or more",80215,General fan,6,West suburbs,39.7435,-105.1009
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80215,Alum,6,West suburbs,39.7435,-105.1009
+Guest,General Fan,"$50,000-$74,999",80215,General fan,3,West suburbs,39.7435,-105.1009
+Full/Half Season,General Fan,"$50,000-$74,999",80215,General fan,3,West suburbs,39.7435,-105.1009
+None,General Fan,"$50,000-$74,999",80215,General fan,3,West suburbs,39.7435,-105.1009
+Full/Half Season,General Fan,,80215,General fan,,West suburbs,39.7435,-105.1009
+Single Game,General Fan,,80215,General fan,,West suburbs,39.7435,-105.1009
+Full/Half Season,General Fan,"$150,000 or more",80216,General fan,6,Denver,39.7835,-104.9669
+Full/Half Season,General Fan,"$100,000-$149,999",80218,General fan,5,Denver,39.7327,-104.9717
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80218,Alum,5,Denver,39.7327,-104.9717
+Full/Half Season,General Fan,"$150,000 or more",80218,General fan,6,Denver,39.7327,-104.9717
+Single Game,General Fan,"$150,000 or more",80218,General fan,6,Denver,39.7327,-104.9717
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80218,Alum,6,Denver,39.7327,-104.9717
+Single Game,Alumnus or Alumna,"$150,000 or more",80218,Alum,6,Denver,39.7327,-104.9717
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80218,Alum,6,Denver,39.7327,-104.9717
+Single Game,General Fan,"$150,000 or more",80219,General fan,6,Denver,39.6956,-105.0341
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",80220,General fan,5,Denver,39.7312,-104.9129
+Full/Half Season,General Fan,"$150,000 or more",80220,General fan,6,Denver,39.7312,-104.9129
+Full/Half Season,General Fan,,80220,General fan,,Denver,39.7312,-104.9129
+Full/Half Season,Alumnus or Alumna,,80220,Alum,,Denver,39.7312,-104.9129
+Full/Half Season,General Fan,,80220,General fan,,Denver,39.7312,-104.9129
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80221,General fan,6,North suburbs,39.838,-104.9988
+Full/Half Season,General Fan,"$75,000-$99,999",80221,General fan,4,North suburbs,39.838,-104.9988
+Full/Half Season,General Fan,,80222,General fan,,Denver,39.671,-104.9279
+Full/Half Season,General Fan,"$100,000-$149,999",80222,General fan,5,Denver,39.671,-104.9279
+Single Game,Current Faculty/Staff,"$100,000-$149,999",80222,Faculty/staff,5,Denver,39.671,-104.9279
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",80222,General fan,5,Denver,39.671,-104.9279
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80222,Alum,6,Denver,39.671,-104.9279
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80222,Alum,6,Denver,39.671,-104.9279
+Single Game,General Fan,"$150,000 or more",80222,General fan,6,Denver,39.671,-104.9279
+Single Game,Other,"$150,000 or more",80222,Faculty/staff,6,Denver,39.671,-104.9279
+Single Game,General Fan,"$150,000 or more",80222,General fan,6,Denver,39.671,-104.9279
+Full/Half Season,Former Faculty/Staff,"$150,000 or more",80222,Faculty/staff,6,Denver,39.671,-104.9279
+Full/Half Season,General Fan,"$50,000-$74,999",80222,General fan,3,Denver,39.671,-104.9279
+DU Student,Current Graduate Student,"$50,000-$74,999",80222,Student,3,Denver,39.671,-104.9279
+DU Student,Current Graduate Student,"Less than $25,000",80222,Student,1,Denver,39.671,-104.9279
+Full/Half Season,Alumnus or Alumna,,80222,Alum,,Denver,39.671,-104.9279
+Full/Half Season,General Fan,,80222,General fan,,Denver,39.671,-104.9279
+Single Game,Alumnus or Alumna,,80222,Alum,,Denver,39.671,-104.9279
+Single Game,General Fan,"$75,000-$99,999",80223,General fan,4,Denver,39.7002,-105.0028
+5-Game/Mini-Plan,General Fan,,80223,General fan,,Denver,39.7002,-105.0028
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80224,Alum,5,Denver,39.688,-104.9108
+Full/Half Season,General Fan,"$150,000 or more",80224,General fan,6,Denver,39.688,-104.9108
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80224,Alum,6,Denver,39.688,-104.9108
+Single Game,General Fan,"$150,000 or more",80224,General fan,6,Denver,39.688,-104.9108
+Full/Half Season,General Fan,"$150,000 or more",80224,General fan,6,Denver,39.688,-104.9108
+Full/Half Season,Alumnus or Alumna,"$50,000-$74,999",80224,Alum,3,Denver,39.688,-104.9108
+Single Game,General Fan,"$75,000-$99,999",80224,General fan,4,Denver,39.688,-104.9108
+5-Game/Mini-Plan,General Fan,,80224,General fan,,Denver,39.688,-104.9108
+Single Game,Current Faculty/Staff,,80224,Faculty/staff,,Denver,39.688,-104.9108
+5-Game/Mini-Plan,General Fan,,80224,General fan,,Denver,39.688,-104.9108
+Single Game,General Fan,"$100,000-$149,999",80226,General fan,5,West suburbs,39.7123,-105.0918
+Full/Half Season,Other,"$100,000-$149,999",80226,Faculty/staff,5,West suburbs,39.7123,-105.0918
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80226,Alum,5,West suburbs,39.7123,-105.0918
+Full/Half Season,General Fan,"$100,000-$149,999",80226,General fan,5,West suburbs,39.7123,-105.0918
+Single Game,General Fan,"$100,000-$149,999",80226,General fan,5,West suburbs,39.7123,-105.0918
+Single Game,General Fan,"$150,000 or more",80226,General fan,6,West suburbs,39.7123,-105.0918
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80226,Alum,6,West suburbs,39.7123,-105.0918
+Single Game,General Fan,"$150,000 or more",80226,General fan,6,West suburbs,39.7123,-105.0918
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80226,Alum,6,West suburbs,39.7123,-105.0918
+Full/Half Season,General Fan,"$150,000 or more",80226,General fan,6,West suburbs,39.7123,-105.0918
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80226,Alum,6,West suburbs,39.7123,-105.0918
+Full/Half Season,General Fan,"$25,000-$49,999",80226,General fan,2,West suburbs,39.7123,-105.0918
+Full/Half Season,General Fan,,80226,General fan,,West suburbs,39.7123,-105.0918
+Full/Half Season,Alumnus or Alumna,,80226,Alum,,West suburbs,39.7123,-105.0918
+Full/Half Season,General Fan,,80226,General fan,,West suburbs,39.7123,-105.0918
+Full/Half Season,Alumnus or Alumna,,80226,Alum,,West suburbs,39.7123,-105.0918
+Single Game,General Fan,"$100,000-$149,999",80227,General fan,5,West suburbs,39.6667,-105.0854
+Full/Half Season,General Fan,"$150,000 or more",80227,General fan,6,West suburbs,39.6667,-105.0854
+Full/Half Season,General Fan,"$150,000 or more",80227,General fan,6,West suburbs,39.6667,-105.0854
+5-Game/Mini-Plan,General Fan,"$75,000-$99,999",80227,General fan,4,West suburbs,39.6667,-105.0854
+Full/Half Season,General Fan,,80227,General fan,,West suburbs,39.6667,-105.0854
+Full/Half Season,General Fan,,80227,General fan,,West suburbs,39.6667,-105.0854
+Full/Half Season,General Fan,"$100,000-$149,999",80228,General fan,5,West suburbs,39.6888,-105.156
+Full/Half Season,General Fan,"$100,000-$149,999",80228,General fan,5,West suburbs,39.6888,-105.156
+Full/Half Season,General Fan,"$100,000-$149,999",80228,General fan,5,West suburbs,39.6888,-105.156
+Full/Half Season,General Fan,"$100,000-$149,999",80228,General fan,5,West suburbs,39.6888,-105.156
+Full/Half Season,General Fan,"$100,000-$149,999",80228,General fan,5,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80228,Alum,5,West suburbs,39.6888,-105.156
+Guest,General Fan,"$150,000 or more",80228,General fan,6,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80228,Alum,6,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80228,Alum,6,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80228,Alum,6,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80228,Alum,6,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80228,Alum,6,West suburbs,39.6888,-105.156
+Full/Half Season,General Fan,"$150,000 or more",80228,General fan,6,West suburbs,39.6888,-105.156
+Single Game,Current Faculty/Staff,"$150,000 or more",80228,Faculty/staff,6,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80228,Alum,6,West suburbs,39.6888,-105.156
+Full/Half Season,Parent of Student/Alum,,80228,Parent,,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,,80228,Alum,,West suburbs,39.6888,-105.156
+Single Game,Alumnus or Alumna,,80228,Alum,,West suburbs,39.6888,-105.156
+Full/Half Season,General Fan,,80228,General fan,,West suburbs,39.6888,-105.156
+Single Game,Alumnus or Alumna,,80228,Alum,,West suburbs,39.6888,-105.156
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80230,Alum,6,Denver,39.7218,-104.8951
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80230,Alum,6,Denver,39.7218,-104.8951
+Full/Half Season,General Fan,"$150,000 or more",80230,General fan,6,Denver,39.7218,-104.8951
+Single Game,General Fan,"$50,000-$74,999",80230,General fan,3,Denver,39.7218,-104.8951
+Full/Half Season,General Fan,,80230,General fan,,Denver,39.7218,-104.8951
+5-Game/Mini-Plan,Alumnus or Alumna,"$100,000-$149,999",80231,Alum,5,Denver,39.6793,-104.8843
+Single Game,Alumnus or Alumna,"$100,000-$149,999",80231,Alum,5,Denver,39.6793,-104.8843
+Single Game,Current Faculty/Staff,"$150,000 or more",80231,Faculty/staff,6,Denver,39.6793,-104.8843
+5-Game/Mini-Plan,Former Faculty/Staff,"$150,000 or more",80231,Faculty/staff,6,Denver,39.6793,-104.8843
+Full/Half Season,General Fan,"$25,000-$49,999",80231,General fan,2,Denver,39.6793,-104.8843
+Full/Half Season,Alumnus or Alumna,"$50,000-$74,999",80231,Alum,3,Denver,39.6793,-104.8843
+Single Game,Former Faculty/Staff,"$50,000-$74,999",80231,Faculty/staff,3,Denver,39.6793,-104.8843
+Full/Half Season,General Fan,"$50,000-$74,999",80231,General fan,3,Denver,39.6793,-104.8843
+Full/Half Season,General Fan,,80231,General fan,,Denver,39.6793,-104.8843
+Full/Half Season,General Fan,,80231,General fan,,Denver,39.6793,-104.8843
+5-Game/Mini-Plan,General Fan,,80231,General fan,,Denver,39.6793,-104.8843
+5-Game/Mini-Plan,General Fan,,80231,General fan,,Denver,39.6793,-104.8843
+Full/Half Season,General Fan,,80231,General fan,,Denver,39.6793,-104.8843
+Guest,General Fan,"Less than $25,000",80232,General fan,1,West suburbs,39.6895,-105.0908
+5-Game/Mini-Plan,Current Faculty/Staff,,80232,Faculty/staff,,West suburbs,39.6895,-105.0908
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80233,Alum,6,North suburbs,39.9015,-104.9407
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80234,Alum,5,North suburbs,39.9108,-105.0109
+None,General Fan,"$150,000 or more",80234,General fan,6,North suburbs,39.9108,-105.0109
+Full/Half Season,General Fan,"$150,000 or more",80234,General fan,6,North suburbs,39.9108,-105.0109
+Single Game,General Fan,"$150,000 or more",80235,General fan,6,West suburbs,39.6472,-105.0795
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80236,Alum,6,Denver,39.6535,-105.0376
+Full/Half Season,Alumnus or Alumna,"$50,000-$74,999",80236,Alum,3,Denver,39.6535,-105.0376
+Full/Half Season,General Fan,,80236,General fan,,Denver,39.6535,-105.0376
+Full/Half Season,General Fan,"$100,000-$149,999",80237,General fan,5,Denver,39.6431,-104.8987
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80237,Alum,6,Denver,39.6431,-104.8987
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80237,General fan,6,Denver,39.6431,-104.8987
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80237,Alum,6,Denver,39.6431,-104.8987
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80237,Alum,6,Denver,39.6431,-104.8987
+Full/Half Season,General Fan,"$150,000 or more",80237,General fan,6,Denver,39.6431,-104.8987
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80237,Alum,6,Denver,39.6431,-104.8987
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80237,Alum,6,Denver,39.6431,-104.8987
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80237,Alum,6,Denver,39.6431,-104.8987
+Full/Half Season,General Fan,"$75,000-$99,999",80237,General fan,4,Denver,39.6431,-104.8987
+Full/Half Season,General Fan,"$75,000-$99,999",80237,General fan,4,Denver,39.6431,-104.8987
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80237,Alum,4,Denver,39.6431,-104.8987
+Full/Half Season,Current Graduate Student,,80237,Student,,Denver,39.6431,-104.8987
+Full/Half Season,Alumnus or Alumna,,80237,Alum,,Denver,39.6431,-104.8987
+Full/Half Season,Parent of Student/Alum,,80237,Parent,,Denver,39.6431,-104.8987
+Full/Half Season,General Fan,"$100,000-$149,999",80238,General fan,5,Denver,39.7392,-104.9847
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80238,General fan,6,Denver,39.7392,-104.9847
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80238,General fan,6,Denver,39.7392,-104.9847
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80238,Alum,6,Denver,39.7392,-104.9847
+Single Game,General Fan,"$150,000 or more",80238,General fan,6,Denver,39.7392,-104.9847
+Full/Half Season,General Fan,"$150,000 or more",80238,General fan,6,Denver,39.7392,-104.9847
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80238,Alum,6,Denver,39.7392,-104.9847
+Single Game,Alumnus or Alumna,"$150,000 or more",80238,Alum,6,Denver,39.7392,-104.9847
+Single Game,General Fan,"$75,000-$99,999",80238,General fan,4,Denver,39.7392,-104.9847
+Single Game,General Fan,,80238,General fan,,Denver,39.7392,-104.9847
+5-Game/Mini-Plan,General Fan,,80238,General fan,,Denver,39.7392,-104.9847
+Single Game,General Fan,,80238,General fan,,Denver,39.7392,-104.9847
+5-Game/Mini-Plan,General Fan,,80238,General fan,,Denver,39.7392,-104.9847
+Single Game,General Fan,,80238,General fan,,Denver,39.7392,-104.9847
+Single Game,General Fan,"$150,000 or more",80239,General fan,6,Denver,39.7878,-104.8288
+Single Game,General Fan,"$100,000-$149,999",80241,General fan,5,North suburbs,39.868,-104.9719
+Single Game,General Fan,"$100,000-$149,999",80241,General fan,5,North suburbs,39.868,-104.9719
+Full/Half Season,General Fan,"$100,000-$149,999",80241,General fan,5,North suburbs,39.868,-104.9719
+Full/Half Season,General Fan,"$150,000 or more",80241,General fan,6,North suburbs,39.868,-104.9719
+Full/Half Season,General Fan,"$150,000 or more",80241,General fan,6,North suburbs,39.868,-104.9719
+Full/Half Season,General Fan,"$150,000 or more",80241,General fan,6,North suburbs,39.868,-104.9719
+Single Game,General Fan,"$75,000-$99,999",80241,General fan,4,North suburbs,39.868,-104.9719
+Single Game,General Fan,"$75,000-$99,999",80241,General fan,4,North suburbs,39.868,-104.9719
+Full/Half Season,Alumnus or Alumna,,80241,Alum,,North suburbs,39.868,-104.9719
+Full/Half Season,General Fan,"$150,000 or more",80246,General fan,6,Denver,39.7086,-104.9312
+DU Student,Current Graduate Student,"$25,000-$49,999",80246,Student,2,Denver,39.7086,-104.9312
+Single Game,Alumnus or Alumna,"$75,000-$99,999",80246,Alum,4,Denver,39.7086,-104.9312
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80247,Alum,5,South / southeast suburbs,39.6971,-104.8819
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80247,Alum,6,South / southeast suburbs,39.6971,-104.8819
+Full/Half Season,General Fan,"$25,000-$49,999",80247,General fan,2,South / southeast suburbs,39.6971,-104.8819
+Guest,Other,,80247,Faculty/staff,,South / southeast suburbs,39.6971,-104.8819
+5-Game/Mini-Plan,General Fan,,80247,General fan,,South / southeast suburbs,39.6971,-104.8819
+Full/Half Season,Alumnus or Alumna,,80247,Alum,,South / southeast suburbs,39.6971,-104.8819
+Guest,Current Faculty/Staff,"$50,000-$74,999",80249,Faculty/staff,3,Denver,39.7783,-104.7557
+Full/Half Season,Alumnus or Alumna,,80249,Alum,,Denver,39.7783,-104.7557
+Full/Half Season,General Fan,"$100,000-$149,999",80260,General fan,5,North suburbs,39.8672,-105.0041
+Full/Half Season,General Fan,"$100,000-$149,999",80260,General fan,5,North suburbs,39.8672,-105.0041
+Single Game,Other,"$150,000 or more",80292,Faculty/staff,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",80301,General fan,6,North suburbs,40.0497,-105.2143
+5-Game/Mini-Plan,General Fan,"$75,000-$99,999",80301,General fan,4,North suburbs,40.0497,-105.2143
+Full/Half Season,Alumnus or Alumna,,80301,Alum,,North suburbs,40.0497,-105.2143
+Full/Half Season,Current Faculty/Staff,,80301,Faculty/staff,,North suburbs,40.0497,-105.2143
+DU Student,General Fan,,80301,General fan,,North suburbs,40.0497,-105.2143
+Full/Half Season,General Fan,"$150,000 or more",80303,General fan,6,North suburbs,39.9914,-105.2392
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80303,General fan,6,North suburbs,39.9914,-105.2392
+Single Game,General Fan,"$150,000 or more",80304,General fan,6,North suburbs,40.0375,-105.2771
+Full/Half Season,General Fan,"$150,000 or more",80304,General fan,6,North suburbs,40.0375,-105.2771
+Full/Half Season,General Fan,"$150,000 or more",80305,General fan,6,North suburbs,39.9807,-105.2531
+Full/Half Season,General Fan,"$150,000 or more",80305,General fan,6,North suburbs,39.9807,-105.2531
+Full/Half Season,General Fan,,80337,General fan,,Unknown,,
+Full/Half Season,General Fan,"$100,000-$149,999",80401,General fan,5,West suburbs,39.7305,-105.1915
+5-Game/Mini-Plan,Alumnus or Alumna,"$100,000-$149,999",80401,Alum,5,West suburbs,39.7305,-105.1915
+Full/Half Season,General Fan,"$100,000-$149,999",80401,General fan,5,West suburbs,39.7305,-105.1915
+Full/Half Season,Alumnus or Alumna,"$100,000-$149,999",80401,Alum,5,West suburbs,39.7305,-105.1915
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80401,Alum,6,West suburbs,39.7305,-105.1915
+Single Game,General Fan,"$150,000 or more",80401,General fan,6,West suburbs,39.7305,-105.1915
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80401,Alum,6,West suburbs,39.7305,-105.1915
+Full/Half Season,General Fan,"$150,000 or more",80401,General fan,6,West suburbs,39.7305,-105.1915
+Single Game,Other,"$150,000 or more",80401,Faculty/staff,6,West suburbs,39.7305,-105.1915
+Full/Half Season,Current Faculty/Staff,"$25,000-$49,999",80401,Faculty/staff,2,West suburbs,39.7305,-105.1915
+Full/Half Season,General Fan,"$50,000-$74,999",80401,General fan,3,West suburbs,39.7305,-105.1915
+Full/Half Season,Former Faculty/Staff,"$75,000-$99,999",80401,Faculty/staff,4,West suburbs,39.7305,-105.1915
+Full/Half Season,General Fan,"$150,000 or more",80403,General fan,6,West suburbs,39.8232,-105.2825
+Full/Half Season,Other,"$150,000 or more",80403,Faculty/staff,6,West suburbs,39.8232,-105.2825
+Full/Half Season,General Fan,"$150,000 or more",80403,General fan,6,West suburbs,39.8232,-105.2825
+Full/Half Season,General Fan,"$150,000 or more",80403,General fan,6,West suburbs,39.8232,-105.2825
+Full/Half Season,General Fan,"$100,000-$149,999",80421,General fan,5,Other Colorado,39.4482,-105.4693
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80421,General fan,6,Other Colorado,39.4482,-105.4693
+Single Game,General Fan,"$75,000-$99,999",80422,General fan,4,Other Colorado,39.816,-105.4753
+Full/Half Season,General Fan,"$150,000 or more",80433,General fan,6,West suburbs,39.5197,-105.3169
+Full/Half Season,General Fan,"$150,000 or more",80439,General fan,6,West suburbs,39.6374,-105.3402
+Full/Half Season,General Fan,"$150,000 or more",80439,General fan,6,West suburbs,39.6374,-105.3402
+Full/Half Season,Alumnus or Alumna,"$50,000-$74,999",80439,Alum,3,West suburbs,39.6374,-105.3402
+Full/Half Season,Parent of Student/Alum,,80439,Parent,,West suburbs,39.6374,-105.3402
+Single Game,Alumnus or Alumna,,80439,Alum,,West suburbs,39.6374,-105.3402
+Full/Half Season,General Fan,,80447,General fan,,Other Colorado,40.2289,-105.8605
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80454,Alum,6,West suburbs,39.6296,-105.2514
+Guest,Alumnus or Alumna,"$100,000-$149,999",80465,Alum,5,West suburbs,39.6125,-105.1746
+Single Game,General Fan,"$150,000 or more",80465,General fan,6,West suburbs,39.6125,-105.1746
+5-Game/Mini-Plan,General Fan,"$150,000 or more",80465,General fan,6,West suburbs,39.6125,-105.1746
+Full/Half Season,General Fan,"$150,000 or more",80465,General fan,6,West suburbs,39.6125,-105.1746
+Single Game,Parent of Student/Alum,,80498,Parent,,Other Colorado,39.7647,-106.2211
+Single Game,Alumnus or Alumna,"$150,000 or more",80501,Alum,6,North suburbs,40.1779,-105.1009
+Single Game,Alumnus or Alumna,,80501,Alum,,North suburbs,40.1779,-105.1009
+Single Game,Other,"$150,000 or more",80503,Faculty/staff,6,North suburbs,40.1559,-105.1624
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80504,Alum,6,North suburbs,40.1306,-104.9504
+Single Game,Parent of Student/Alum,"$150,000 or more",80504,Parent,6,North suburbs,40.1306,-104.9504
+Full/Half Season,General Fan,"$75,000-$99,999",80504,General fan,4,North suburbs,40.1306,-104.9504
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80504,Alum,4,North suburbs,40.1306,-104.9504
+Single Game,General Fan,,80504,General fan,,North suburbs,40.1306,-104.9504
+Single Game,Alumnus or Alumna,"$100,000-$149,999",80516,Alum,5,Other Colorado,40.0597,-105.0686
+Single Game,General Fan,"$150,000 or more",80516,General fan,6,Other Colorado,40.0597,-105.0686
+Single Game,General Fan,"$150,000 or more",80516,General fan,6,Other Colorado,40.0597,-105.0686
+Single Game,General Fan,"$150,000 or more",80516,General fan,6,Other Colorado,40.0597,-105.0686
+Full/Half Season,General Fan,"$150,000 or more",80516,General fan,6,Other Colorado,40.0597,-105.0686
+Full/Half Season,General Fan,"$150,000 or more",80516,General fan,6,Other Colorado,40.0597,-105.0686
+Full/Half Season,Alumnus or Alumna,,80516,Alum,,Other Colorado,40.0597,-105.0686
+Single Game,General Fan,,80516,General fan,,Other Colorado,40.0597,-105.0686
+Single Game,General Fan,"$100,000-$149,999",80521,General fan,5,Other Colorado,40.5813,-105.1039
+Guest,General Fan,,80525,General fan,,Other Colorado,40.5384,-105.0547
+Full/Half Season,General Fan,"$100,000-$149,999",80526,General fan,5,Other Colorado,40.5473,-105.1076
+Full/Half Season,General Fan,"$150,000 or more",80535,General fan,6,Other Colorado,40.6347,-105.1488
+Full/Half Season,General Fan,"$150,000 or more",80535,General fan,6,Other Colorado,40.6347,-105.1488
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",80537,Alum,4,Other Colorado,40.3849,-105.0916
+Full/Half Season,General Fan,,80538,General fan,,Other Colorado,40.4262,-105.09
+Single Game,General Fan,"$100,000-$149,999",80550,General fan,5,Other Colorado,40.4837,-104.8994
+Single Game,General Fan,"$150,000 or more",80550,General fan,6,Other Colorado,40.4837,-104.8994
+Single Game,General Fan,"$150,000 or more",80550,General fan,6,Other Colorado,40.4837,-104.8994
+Single Game,General Fan,"$100,000-$149,999",80602,General fan,5,North suburbs,39.9636,-104.9072
+DU Student,Current Graduate Student,"$100,000-$149,999",80602,Student,5,North suburbs,39.9636,-104.9072
+Single Game,General Fan,"$100,000-$149,999",80602,General fan,5,North suburbs,39.9636,-104.9072
+Full/Half Season,General Fan,"$100,000-$149,999",80602,General fan,5,North suburbs,39.9636,-104.9072
+Full/Half Season,Parent of Student/Alum,"$100,000-$149,999",80602,Parent,5,North suburbs,39.9636,-104.9072
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80602,Alum,6,North suburbs,39.9636,-104.9072
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80602,Alum,6,North suburbs,39.9636,-104.9072
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80602,Alum,6,North suburbs,39.9636,-104.9072
+Full/Half Season,General Fan,"$150,000 or more",80602,General fan,6,North suburbs,39.9636,-104.9072
+Single Game,General Fan,"$150,000 or more",80602,General fan,6,North suburbs,39.9636,-104.9072
+Guest,General Fan,"$150,000 or more",80602,General fan,6,North suburbs,39.9636,-104.9072
+Single Game,General Fan,,80602,General fan,,North suburbs,39.9636,-104.9072
+Full/Half Season,General Fan,,80603,General fan,,Other Colorado,39.9515,-104.7746
+Guest,Alumnus or Alumna,"$150,000 or more",80642,Alum,6,Other Colorado,40.0606,-104.6532
+None,General Fan,"$150,000 or more",80701,General fan,6,Other Colorado,40.2541,-103.8031
+Full/Half Season,General Fan,"$150,000 or more",80831,General fan,6,Other Colorado,38.9541,-104.5472
+Single Game,General Fan,"$150,000 or more",80863,General fan,6,Other Colorado,38.9969,-105.0623
+Single Game,Current Faculty/Staff,"$150,000 or more",80907,Faculty/staff,6,Other Colorado,38.876,-104.817
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80908,Alum,6,Other Colorado,39.0237,-104.6933
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80911,Parent,6,Other Colorado,38.7457,-104.7223
+Single Game,Other,"$100,000-$149,999",80918,Faculty/staff,5,Other Colorado,38.9129,-104.7734
+Single Game,Alumnus or Alumna,"$150,000 or more",80918,Alum,6,Other Colorado,38.9129,-104.7734
+5-Game/Mini-Plan,Alumnus or Alumna,"$150,000 or more",80918,Alum,6,Other Colorado,38.9129,-104.7734
+DU Student,Current Undergraduate Student,"Less than $25,000",80918,Student,1,Other Colorado,38.9129,-104.7734
+Guest,Other,,80919,Faculty/staff,,Other Colorado,38.9268,-104.8464
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",80920,General fan,5,Other Colorado,38.9497,-104.767
+Full/Half Season,Parent of Student/Alum,"$100,000-$149,999",80920,Parent,5,Other Colorado,38.9497,-104.767
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80920,Parent,6,Other Colorado,38.9497,-104.767
+Single Game,Parent of Student/Alum,"$75,000-$99,999",80920,Parent,4,Other Colorado,38.9497,-104.767
+Single Game,General Fan,,80920,General fan,,Other Colorado,38.9497,-104.767
+Single Game,General Fan,,80920,General fan,,Other Colorado,38.9497,-104.767
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",80921,Parent,6,Other Colorado,39.0487,-104.814
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",80921,Alum,6,Other Colorado,39.0487,-104.814
+Single Game,General Fan,"$100,000-$149,999",80922,General fan,5,Other Colorado,38.905,-104.6982
+Single Game,General Fan,"$100,000-$149,999",80922,General fan,5,Other Colorado,38.905,-104.6982
+Single Game,Alumnus or Alumna,,80924,Alum,,Other Colorado,38.9676,-104.7211
+DU Student,Current Faculty/Staff,"$75,000-$99,999",81101,Faculty/staff,4,Other Colorado,37.4703,-105.8786
+Single Game,General Fan,"$50,000-$74,999",81211,General fan,3,Other Colorado,38.838,-106.1471
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",81301,Parent,6,Other Colorado,37.2874,-107.8617
+Full/Half Season,General Fan,,81507,General fan,,Other Colorado,39.0157,-108.6129
+Single Game,General Fan,"$50,000-$74,999",82609,General fan,3,Out of state,42.8406,-106.2806
+Single Game,General Fan,"$50,000-$74,999",82609,General fan,3,Out of state,42.8406,-106.2806
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",82832,Alum,6,Out of state,44.6003,-106.7954
+Single Game,Parent of Student/Alum,"$150,000 or more",83616,Parent,6,Out of state,43.7069,-116.362
+Single Game,General Fan,"$150,000 or more",84121,General fan,6,Out of state,40.6226,-111.7777
+Single Game,Other,"$75,000-$99,999",84129,Faculty/staff,4,Out of state,40.6531,-111.9674
+Single Game,Alumnus or Alumna,,85224,Alum,,Out of state,33.3301,-111.8632
+DU Student,Current Undergraduate Student,"$100,000-$149,999",89138,Student,5,Out of state,36.1666,-115.3613
+DU Student,Current Undergraduate Student,"$150,000 or more",90019,Student,6,Out of state,34.0482,-118.3343
+DU Student,Current Undergraduate Student,"Less than $25,000",90210,Student,1,Out of state,34.0901,-118.4065
+Full/Half Season,Alumnus or Alumna,,90231,Alum,,Out of state,34.0211,-118.3965
+Guest,Alumnus or Alumna,"$100,000-$149,999",92104,Alum,5,Out of state,32.7454,-117.1272
+Full/Half Season,Current Undergraduate Student,,92677,Student,,Out of state,33.5145,-117.7084
+DU Student,Current Undergraduate Student,,94121,Student,,Out of state,37.7786,-122.4892
+Single Game,Parent of Student/Alum,"$150,000 or more",94618,Parent,6,Out of state,37.8431,-122.2402
+5-Game/Mini-Plan,Parent of Student/Alum,"$150,000 or more",94941,Parent,6,Out of state,37.8958,-122.5339
+Guest,Parent of Student/Alum,,95120,Parent,,Out of state,37.2144,-121.8574
+Guest,Other,"$150,000 or more",96789,Faculty/staff,6,Out of state,21.4516,-157.9529
+DU Student,Current Undergraduate Student,,98040,Student,,Out of state,47.5603,-122.2281
+Single Game,Alumnus or Alumna,"$150,000 or more",98075,Alum,6,Out of state,47.5857,-122.0345
+None,Alumnus or Alumna,"$100,000-$149,999",,Alum,5,Unknown,,
+Single Game,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+Single Game,Parent of Student/Alum,"$100,000-$149,999",,Parent,5,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$100,000-$149,999",,Parent,5,Unknown,,
+Full/Half Season,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+Single Game,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+Full/Half Season,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+5-Game/Mini-Plan,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+Full/Half Season,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+Full/Half Season,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+DU Student,Current Graduate Student,"$100,000-$149,999",,Student,5,Unknown,,
+Single Game,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+Full/Half Season,General Fan,"$100,000-$149,999",,General fan,5,Unknown,,
+5-Game/Mini-Plan,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+Single Game,Other,"$150,000 or more",,Faculty/staff,6,Unknown,,
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Single Game,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+5-Game/Mini-Plan,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Single Game,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+DU Student,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Single Game,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Single Game,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Current Faculty/Staff,"$150,000 or more",,Faculty/staff,6,Unknown,,
+Single Game,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+Single Game,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Former Faculty/Staff,"$150,000 or more",,Faculty/staff,6,Unknown,,
+Guest,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Single Game,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+5-Game/Mini-Plan,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Guest,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Single Game,Alumnus or Alumna,"$150,000 or more",,Alum,6,Unknown,,
+Single Game,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Guest,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,General Fan,"$150,000 or more",,General fan,6,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$150,000 or more",,Parent,6,Unknown,,
+Single Game,Current Undergraduate Student,"$25,000-$49,999",,Student,2,Unknown,,
+Full/Half Season,General Fan,"$50,000-$74,999",,General fan,3,Unknown,,
+5-Game/Mini-Plan,General Fan,"$50,000-$74,999",,General fan,3,Unknown,,
+Full/Half Season,General Fan,"$50,000-$74,999",,General fan,3,Unknown,,
+Single Game,General Fan,"$50,000-$74,999",,General fan,3,Unknown,,
+DU Student,Current Graduate Student,"$50,000-$74,999",,Student,3,Unknown,,
+Full/Half Season,General Fan,"$50,000-$74,999",,General fan,3,Unknown,,
+None,Alumnus or Alumna,"$75,000-$99,999",,Alum,4,Unknown,,
+Single Game,Parent of Student/Alum,"$75,000-$99,999",,Parent,4,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$75,000-$99,999",,Parent,4,Unknown,,
+Single Game,Alumnus or Alumna,"$75,000-$99,999",,Alum,4,Unknown,,
+Single Game,General Fan,"$75,000-$99,999",,General fan,4,Unknown,,
+Full/Half Season,Alumnus or Alumna,"$75,000-$99,999",,Alum,4,Unknown,,
+Full/Half Season,General Fan,"$75,000-$99,999",,General fan,4,Unknown,,
+Full/Half Season,General Fan,"$75,000-$99,999",,General fan,4,Unknown,,
+5-Game/Mini-Plan,General Fan,"$75,000-$99,999",,General fan,4,Unknown,,
+Full/Half Season,General Fan,"$75,000-$99,999",,General fan,4,Unknown,,
+DU Student,Current Undergraduate Student,"$75,000-$99,999",,Student,4,Unknown,,
+Single Game,General Fan,"$75,000-$99,999",,General fan,4,Unknown,,
+Full/Half Season,Parent of Student/Alum,"$75,000-$99,999",,Parent,4,Unknown,,
+5-Game/Mini-Plan,General Fan,"Less than $25,000",,General fan,1,Unknown,,
+DU Student,Current Graduate Student,"Less than $25,000",,Student,1,Unknown,,
+Full/Half Season,Parent of Student/Alum,,,Parent,,Unknown,,
+Single Game,General Fan,,,General fan,,Unknown,,
+Full/Half Season,Former Faculty/Staff,,,Faculty/staff,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+DU Student,Current Undergraduate Student,,,Student,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+DU Student,Current Undergraduate Student,,,Student,,Unknown,,
+DU Student,Current Undergraduate Student,,,Student,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+Single Game,Parent of Student/Alum,,,Parent,,Unknown,,
+Full/Half Season,Alumnus or Alumna,,,Alum,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+Single Game,General Fan,,,General fan,,Unknown,,
+DU Student,General Fan,,,General fan,,Unknown,,
+Full/Half Season,Alumnus or Alumna,,,Alum,,Unknown,,
+Full/Half Season,General Fan,,,General fan,,Unknown,,
+5-Game/Mini-Plan,General Fan,,,General fan,,Unknown,,
+DU Student,Current Undergraduate Student,,,Student,,Unknown,,
+Single Game,Former Faculty/Staff,"$150,000 or more",80108,Faculty/staff,6,South / southeast suburbs,39.4455,-104.853
+Single Game,Alumnus or Alumna,"$150,000 or more",80108,Alum,6,South / southeast suburbs,39.4455,-104.853
+Full/Half Season,General Fan,"$150,000 or more",80112,General fan,6,South / southeast suburbs,39.5805,-104.9011
+5-Game/Mini-Plan,Alumnus or Alumna,"$50,000-$74,999",80122,Alum,3,South / southeast suburbs,39.5814,-104.9557
+5-Game/Mini-Plan,General Fan,"$75,000-$99,999",80205,General fan,4,Denver,39.759,-104.9661
+Full/Half Season,General Fan,"$75,000-$99,999",80231,General fan,4,Denver,39.6793,-104.8843
+Full/Half Season,Alumnus or Alumna,,80401,Alum,,West suburbs,39.7305,-105.1915
