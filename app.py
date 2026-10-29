@@ -35,6 +35,12 @@ div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}
 </style>""", unsafe_allow_html=True)
 
 
+LABELS = {"Alum": "Alumni", "General fan": "General Fan", "Faculty/staff": "Faculty/Staff", "No answer": "No Answer",
+          "South / southeast suburbs": "South / Southeast Suburbs", "West suburbs": "West Suburbs",
+          "North suburbs": "North Suburbs", "Out of state": "Out of State"}
+def nice(x):
+    return LABELS.get(x, x)
+
 @st.cache_data
 def load():
     df = pd.read_csv("data/survey_clean.csv", dtype={"zip": str})
@@ -50,8 +56,8 @@ st.markdown("""<div class="band"><h1>DU Hockey Audience Profile</h1>
 f1, f2 = st.columns(2)
 tix_opts = df["ticket_type"].dropna().unique().tolist()
 rel_opts = ["Alum", "Parent", "General fan", "Student", "Faculty/staff"]
-tix_sel = f1.multiselect("Ticket Type", tix_opts, placeholder="All ticket types")
-rel_sel = f2.multiselect("Relationship", rel_opts, placeholder="All relationships")
+tix_sel = f1.multiselect("Ticket Type", tix_opts, placeholder="All ticket types", format_func=nice)
+rel_sel = f2.multiselect("Relationship", rel_opts, placeholder="All relationships", format_func=nice)
 
 d_tix = df[df["ticket_type"].isin(tix_sel)] if tix_sel else df          # ticket filter only
 d = d_tix[d_tix["rel_group"].isin(rel_sel)] if rel_sel else d_tix       # both filters
@@ -75,7 +81,7 @@ redemption = pct(REDEEMED, SOLD)
 
 cards = [("Respondents", f"{n:,}", "survey responses"),
          ("Earn $100K+", p100, f"of {len(inc):,} who answered"),
-         ("Live in Denver metro", metro, f"of {len(reg):,} with a known zip"),
+         ("Live in Denver metro", metro, f"of {len(reg):,} with a known zip code"),
          ("Alumni & Parents", ap, "of ticket-type group"),
          ("Tickets redeemed", redemption, "2025-26 season")]
 for col, (t, v, s) in zip(st.columns(5), cards):
@@ -91,7 +97,7 @@ def style(fig, h=330, title=None):
     return fig
 
 def donut(series, title):
-    c = series.fillna("No answer").value_counts().reset_index()
+    c = series.fillna("No answer").map(nice).value_counts().reset_index()
     c.columns = ["label", "n"]
     fig = go.Figure(go.Pie(labels=c["label"], values=c["n"], hole=0.55, sort=True,
                            marker=dict(colors=RAMP, line=dict(color=PANEL, width=2)),
@@ -111,12 +117,14 @@ view = c3.radio("Map view", ["Denver area", "Entire US"], horizontal=True, label
 if view == "Denver area":
     mfig = px.scatter_map(pts, lat="lat", lon="long", size="n", hover_name="zip",
                           hover_data={"n": True, "lat": False, "long": False},
+                          labels={"n": "Respondents", "zip": "Zip code"},
                           size_max=28, color_discrete_sequence=[MAROON])
     mfig.update_traces(marker=dict(opacity=.6))
     mfig.update_layout(map=dict(style="carto-positron", center=dict(lat=39.68, lon=-104.95), zoom=8.3))
 else:
     mfig = px.scatter_geo(pts, lat="lat", lon="long", size="n", hover_name="zip",
                           hover_data={"n": True, "lat": False, "long": False},
+                          labels={"n": "Respondents", "zip": "Zip code"},
                           scope="usa", size_max=40, color_discrete_sequence=[MAROON])
     mfig.update_traces(marker=dict(opacity=.6, line=dict(width=0)))
     mfig.update_geos(bgcolor=PANEL, landcolor="#E9E5DB", subunitcolor="#8A8272", subunitwidth=1,
@@ -135,7 +143,7 @@ ifig = go.Figure(go.Bar(x=share.values, y=INCOME_ORDER, orientation="h", marker_
 ifig.update_yaxes(autorange="reversed"); ifig.update_xaxes(visible=False, range=[0, max(share.max() * 1.25, .1)])
 c4.plotly_chart(style(ifig, 330, "Income Share"), width="stretch")
 
-rc = reg["region"].value_counts().sort_values()
+rc = reg["region"].map(nice).value_counts().sort_values()
 rfig = go.Figure(go.Bar(x=rc.values, y=rc.index, orientation="h", marker_color=MAROON,
                         text=rc.values, textposition="outside"))
 rfig.update_xaxes(visible=False, range=[0, rc.max() * 1.2])
@@ -163,6 +171,6 @@ def take():
 li = "".join(f"<li>{t}</li>" for t in take())
 c6.markdown(f'<div class="box"><h4>Key takeaways</h4><ul>{li}</ul></div>', unsafe_allow_html=True)
 
-st.markdown(f"""<div class="foot">Source: DU Athletics fan survey (n = {len(df):,}) and 2025-26 ticket data.
+st.markdown(f"""<div class="foot">Source: DU Athletics fan survey ({len(df):,} respondents) and 2025-26 ticket data.
 Survey respondents are self-selected; income and region shares use only respondents who answered.
 Redemption rate is season-wide and does not change with filters.</div>""", unsafe_allow_html=True)
