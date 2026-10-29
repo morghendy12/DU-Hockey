@@ -108,15 +108,20 @@ c2.plotly_chart(donut(d["ticket_type"], "Ticket Type"), width="stretch")
 pts = (d.dropna(subset=["lat", "long"]).groupby(["zip", "lat", "long"]).size()
        .reset_index(name="n"))
 view = c3.radio("Map view", ["Denver area", "Entire US"], horizontal=True, label_visibility="collapsed")
-mfig = px.scatter_map(pts, lat="lat", lon="long", size="n", hover_name="zip",
-                      hover_data={"n": True, "lat": False, "long": False},
-                      size_max=28, color_discrete_sequence=[MAROON])
-mfig.update_traces(marker=dict(opacity=.6))
 if view == "Denver area":
+    mfig = px.scatter_map(pts, lat="lat", lon="long", size="n", hover_name="zip",
+                          hover_data={"n": True, "lat": False, "long": False},
+                          size_max=28, color_discrete_sequence=[MAROON])
+    mfig.update_traces(marker=dict(opacity=.6))
     mfig.update_layout(map=dict(style="carto-positron", center=dict(lat=39.68, lon=-104.95), zoom=8.3))
 else:
-    mfig.update_layout(map=dict(style="carto-positron", center=dict(lat=39.0, lon=-98.0), zoom=2.8))
-mfig = style(mfig, 420, "Where respondents live")
+    mfig = px.scatter_geo(pts, lat="lat", lon="long", size="n", hover_name="zip",
+                          hover_data={"n": True, "lat": False, "long": False},
+                          scope="usa", size_max=40, color_discrete_sequence=[MAROON])
+    mfig.update_traces(marker=dict(opacity=.6, line=dict(width=0)))
+    mfig.update_geos(bgcolor=PANEL, landcolor="#E9E5DB", subunitcolor="#8A8272", subunitwidth=1,
+                     countrycolor="#8A8272", showlakes=False, showsubunits=True)
+mfig = style(mfig, 400, "Where respondents live")
 mfig.update_layout(margin=dict(l=0, r=0, t=44, b=0))
 c3.plotly_chart(mfig, width="stretch")
 
