@@ -31,7 +31,7 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .box h4 {{margin:0 0 6px 0; font-size:1rem;}}
 .box li {{margin-bottom:6px; font-size:.92rem;}}
 .foot {{color:{MUTED}; font-size:.78rem; margin-top:8px;}}
-div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:4px;}}
+div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0; overflow:hidden;}}
 </style>""", unsafe_allow_html=True)
 
 
@@ -102,18 +102,35 @@ def donut(series, title):
     fig = go.Figure(go.Pie(labels=c["label"], values=c["n"], hole=0.55, sort=True,
                            marker=dict(colors=RAMP, line=dict(color=PANEL, width=2)),
                            textinfo="label+percent", textposition="outside"))
-    fig = style(fig, 460, title)
+    fig = style(fig, 440, title)
     fig.update_layout(margin=dict(l=100, r=100, t=50, b=30))
     return fig
 
-# ---------- row 2: donuts + map ----------
+# ---------- row 2: donuts + income share ----------
 c1, c2, c3 = st.columns([1.2, 1.2, 1.5])
 c1.plotly_chart(donut(d["rel_group"], "Relationship to DU"), width="stretch")
 c2.plotly_chart(donut(d["ticket_type"], "Ticket Type"), width="stretch")
 
+# income: denominator = answered, ignoring nothing else (bars show share by band)
+ic = d["income_band"].value_counts().reindex(INCOME_ORDER).fillna(0)
+share = ic / ic.sum() if ic.sum() else ic
+ifig = go.Figure(go.Bar(x=share.values, y=INCOME_ORDER, orientation="h", marker_color=MAROON,
+                        text=[f"{v:.0%}" for v in share.values], textposition="outside"))
+ifig.update_yaxes(autorange="reversed"); ifig.update_xaxes(visible=False, range=[0, max(share.max() * 1.25, .1)])
+c3.plotly_chart(style(ifig, 440, "Income Share"), width="stretch")
+
+
+# ---------- row 3: regions + map + takeaways ----------
+c4, c5, c6 = st.columns([1, 1.4, 1])
+rc = reg["region"].map(nice).value_counts().sort_values()
+rfig = go.Figure(go.Bar(x=rc.values, y=rc.index, orientation="h", marker_color=MAROON,
+                        text=rc.values, textposition="outside"))
+rfig.update_xaxes(visible=False, range=[0, rc.max() * 1.2])
+c4.plotly_chart(style(rfig, 390, "Respondents by Region"), width="stretch")
+
 pts = (d.dropna(subset=["lat", "long"]).groupby(["zip", "lat", "long"]).size()
        .reset_index(name="n"))
-view = c3.radio("Map view", ["Denver area", "Entire US"], horizontal=True, label_visibility="collapsed")
+view = c5.radio("Map view", ["Denver area", "Entire US"], horizontal=True, label_visibility="collapsed")
 if view == "Denver area":
     mfig = px.scatter_map(pts, lat="lat", lon="long", size="n", hover_name="zip",
                           hover_data={"n": True, "lat": False, "long": False},
@@ -130,25 +147,9 @@ else:
     mfig.update_geos(bgcolor=PANEL, landcolor="#E9E5DB", subunitcolor="#8A8272", subunitwidth=1,
                      countrycolor="#8A8272", showlakes=False, showsubunits=True)
 mfig.update_traces(hovertemplate="<b>Zip Code = %{hovertext}</b><br>Respondents = %{customdata[0]}<extra></extra>")
-mfig = style(mfig, 400, "Where Respondents Live")
+mfig = style(mfig, 390, "Respondents by Zip Code")
 mfig.update_layout(margin=dict(l=0, r=0, t=44, b=0))
-c3.plotly_chart(mfig, width="stretch")
-
-# ---------- row 3: income + regions + takeaways ----------
-c4, c5, c6 = st.columns([1, 1, 1])
-# income: denominator = answered, ignoring nothing else (bars show share by band)
-ic = d["income_band"].value_counts().reindex(INCOME_ORDER).fillna(0)
-share = ic / ic.sum() if ic.sum() else ic
-ifig = go.Figure(go.Bar(x=share.values, y=INCOME_ORDER, orientation="h", marker_color=MAROON,
-                        text=[f"{v:.0%}" for v in share.values], textposition="outside"))
-ifig.update_yaxes(autorange="reversed"); ifig.update_xaxes(visible=False, range=[0, max(share.max() * 1.25, .1)])
-c4.plotly_chart(style(ifig, 330, "Income Share"), width="stretch")
-
-rc = reg["region"].map(nice).value_counts().sort_values()
-rfig = go.Figure(go.Bar(x=rc.values, y=rc.index, orientation="h", marker_color=MAROON,
-                        text=rc.values, textposition="outside"))
-rfig.update_xaxes(visible=False, range=[0, rc.max() * 1.2])
-c5.plotly_chart(style(rfig, 330, "Respondents by Region"), width="stretch")
+c5.plotly_chart(mfig, width="stretch")
 
 # takeaways: computed from the filtered data so they never go stale
 def take():
