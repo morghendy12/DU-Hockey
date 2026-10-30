@@ -149,7 +149,7 @@ mfig.update_layout(
     margin=dict(l=0, r=0, t=44, b=0),
     map=dict(style="carto-positron", layers=[dict(sourcetype="geojson", source=states, type="line",
                                                   color="#8A8272", line=dict(width=1))], **DENVER),
-    updatemenus=[dict(type="buttons", direction="right", active=0, x=0.55, xanchor="center", y=1.1, yanchor="bottom",
+    updatemenus=[dict(type="buttons", direction="right", active=0, x=0.55, xanchor="center", y=1.06, yanchor="middle",
                       bgcolor=PANEL, bordercolor=BORDER, font=dict(size=11, color=TEXT),
                       buttons=[dict(label="Denver Area", method="relayout",
                                     args=[{"map.center": DENVER["center"], "map.zoom": DENVER["zoom"]}]),
