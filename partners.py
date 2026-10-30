@@ -25,15 +25,15 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .card .t {{background:{BORDER}; color:{TEXT}; font-size:.68rem; font-weight:600; padding:3px;}}
 .card .v {{font-size:1.4rem; font-weight:600; color:{TEXT}; padding-top:2px; line-height:1.2;}}
 .card .s {{font-size:.64rem; color:{MUTED};}}
-.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:10px 16px;
+.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:11px 16px 10px 16px;
        box-sizing:border-box; height:340px; overflow:hidden;}}
 .box, .box h4, .box li, .box p {{color:{TEXT} !important;}}
-.box h4 {{margin:0 0 4px 0; font-size:.95rem;}}
+.box h4 {{margin:0 0 10px 0; padding:0 !important; font-size:13px; font-weight:700; line-height:1.3;}}
 .box li {{margin-bottom:4px; font-size:.85rem;}}
 .box p {{font-size:.8rem; color:{MUTED} !important; margin:6px 0 0 0;}}
 .foot {{color:{MUTED}; font-size:.72rem; margin:0;}}
-.tblbox {{padding:8px 12px;}}
-.box.shortbox {{height:225px;}}
+.tblbox {{padding:11px 12px 8px 12px;}}
+.box.shortbox {{height:210px;}}
 .ptbl {{width:100%; border-collapse:collapse; font-size:.7rem; color:{TEXT};}}
 .tscroll {{height:282px; overflow-y:auto; overflow-x:hidden;}}
 .ptbl th {{text-align:left; border-bottom:1px solid {BORDER}; padding:2px 6px; font-weight:600; position:sticky; top:0; background:{PANEL};}}
@@ -75,7 +75,7 @@ n1, n2, _ = st.columns([1.3, 1, 8])
 n1.page_link("audience.py", label="Audience Profile")
 n2.page_link("partners.py", label="Partners")
 
-st.markdown('<div style="padding-bottom:10px"><div class="band"><h1>DU Hockey Partner Portfolio</h1>'
+st.markdown('<div style="padding-bottom:16px"><div class="band"><h1>DU Hockey Partner Portfolio</h1>'
             '<p>Who partners with DU Hockey today</p></div></div>',
             unsafe_allow_html=True)
 

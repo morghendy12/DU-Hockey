@@ -31,9 +31,9 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .card .t {{background:{BORDER}; color:{TEXT}; font-size:.68rem; font-weight:600; padding:3px;}}
 .card .v {{font-size:1.4rem; font-weight:600; color:{TEXT}; padding-top:2px; line-height:1.2;}}
 .card .s {{font-size:.64rem; color:{MUTED};}}
-.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:10px 16px; box-sizing:border-box; height:300px; overflow:hidden;}}
+.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:11px 16px 10px 16px; box-sizing:border-box; height:300px; overflow:hidden;}}
 .box, .box h4, .box li {{color:{TEXT} !important;}}
-.box h4 {{margin:0 0 4px 0; font-size:.95rem;}}
+.box h4 {{margin:0 0 10px 0; padding:0 !important; font-size:13px; font-weight:700; line-height:1.3;}}
 .box li {{margin-bottom:4px; font-size:.85rem;}}
 .foot {{color:{MUTED}; font-size:.72rem; margin:0;}}
 div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0; overflow:hidden;}}
@@ -110,9 +110,9 @@ def donut(series, title):
     c.columns = ["label", "n"]
     fig = go.Figure(go.Pie(labels=c["label"], values=c["n"], hole=0.55, sort=True,
                            marker=dict(colors=RAMP, line=dict(color=PANEL, width=2)),
-                           textinfo="label+percent", textposition="outside"))
+                           textinfo="label+percent", textposition="outside", automargin=True))
     fig = style(fig, 340, title)
-    fig.update_layout(margin=dict(l=90, r=90, t=44, b=16))
+    fig.update_layout(margin=dict(l=30, r=30, t=44, b=16))
     return fig
 
 # ---------- row 2: donuts + income share ----------
