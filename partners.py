@@ -113,15 +113,17 @@ for tier in ["High", "Mid", "Small"]:
 yfig.update_layout(barmode="stack", showlegend=True, legend=dict(orientation="h", y=1.0, x=1, xanchor="right"))
 yfig.update_xaxes(type="category", categoryorder="array",
                   categoryarray=[str(y) for y in sorted(partners["Year"].unique())])
-yfig.update_yaxes(dtick=1, gridcolor=BORDER)
+yfig.update_yaxes(dtick=1, gridcolor=BORDER, range=[0, 7.2])   # headroom for the tier note
 fy = style(yfig, 340, f"Tiered Partners by Start Year ({len(partners)})")
-fy.update_layout(showlegend=True, margin=dict(l=10, r=10, t=44, b=84))
+# the tier note doubles as the legend (colored dots), tucked into the empty top-left of the plot
+fy.update_layout(showlegend=False, margin=dict(l=10, r=10, t=44, b=10))
 tier_note = "<br>".join([
     f"<span style='color:{TIER_COLORS['High']}'>&#9679;</span> <b>High:</b> six-figure annual spend",
     f"<span style='color:{TIER_COLORS['Mid']}'>&#9679;</span> <b>Mid:</b> spend range not provided",
     f"<span style='color:{TIER_COLORS['Small']}'>&#9679;</span> <b>Small:</b> low five-figure annual spend"])
-fy.add_annotation(text=tier_note, xref="paper", yref="paper", x=0, y=-0.17, xanchor="left", yanchor="top",
-                  align="left", showarrow=False, font=dict(size=11, color=MUTED))
+fy.add_annotation(text=tier_note, xref="paper", yref="paper", x=0.02, y=0.99, xanchor="left", yanchor="top",
+                  align="left", showarrow=False, font=dict(size=10, color=TEXT),
+                  bgcolor=PANEL, borderpad=3)
 c2.plotly_chart(fy, width="stretch")
 
 # one list of every partner: master list (44) plus tiered partners that are not on it
