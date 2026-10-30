@@ -19,21 +19,22 @@ REDEEMED, SOLD = 105415, 139602          # 2025-26 ticket sales sheet, grand tot
 
 st.markdown(f"""
 <style>
-.block-container {{padding-top:1rem; max-width:1500px;}}
+.block-container {{padding-top:0.6rem; padding-bottom:0.6rem; max-width:1500px;}}
+div[data-testid="stVerticalBlock"], div[data-testid="stHorizontalBlock"] {{gap:12px !important;}}
 header[data-testid="stHeader"] {{background:transparent;}}
-.band {{background:{MAROON}; color:#F8F5EE; padding:14px 22px; border-radius:8px; margin-bottom:12px;}}
-.band h1 {{color:#F8F5EE; font-size:1.7rem; margin:0; padding:0;}}
-.band p {{color:{GOLD}; margin:2px 0 0 0; font-size:.95rem;}}
-.card {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0 0 14px 0;
+.band {{background:{MAROON}; color:#F8F5EE; padding:10px 20px; border-radius:8px; margin:0;}}
+.band h1 {{color:#F8F5EE; font-size:1.35rem; margin:0; padding:0; line-height:1.3;}}
+.band p {{color:{GOLD}; margin:0; font-size:.8rem;}}
+.card {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0 0 8px 0;
         box-shadow:2px 2px 4px rgba(0,0,0,.08); text-align:center; overflow:hidden;}}
-.card .t {{background:{BORDER}; color:{TEXT}; font-size:.8rem; font-weight:600; padding:6px;}}
-.card .v {{font-size:2.1rem; font-weight:600; color:{TEXT}; padding-top:8px;}}
-.card .s {{font-size:.75rem; color:{MUTED};}}
-.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:14px 18px; box-sizing:border-box; height:392px; overflow:hidden;}}
+.card .t {{background:{BORDER}; color:{TEXT}; font-size:.72rem; font-weight:600; padding:4px;}}
+.card .v {{font-size:1.65rem; font-weight:600; color:{TEXT}; padding-top:4px; line-height:1.25;}}
+.card .s {{font-size:.68rem; color:{MUTED};}}
+.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:10px 16px; box-sizing:border-box; height:302px; overflow:hidden;}}
 .box, .box h4, .box li {{color:{TEXT} !important;}}
-.box h4 {{margin:0 0 6px 0; font-size:1rem;}}
-.box li {{margin-bottom:6px; font-size:.92rem;}}
-.foot {{color:{MUTED}; font-size:.78rem; margin-top:8px;}}
+.box h4 {{margin:0 0 4px 0; font-size:.95rem;}}
+.box li {{margin-bottom:4px; font-size:.85rem;}}
+.foot {{color:{MUTED}; font-size:.72rem; margin:0;}}
 div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0; overflow:hidden;}}
 </style>""", unsafe_allow_html=True)
 
@@ -90,12 +91,11 @@ cards = [("Respondents", f"{n:,}", "survey responses"),
 for col, (t, v, s) in zip(st.columns(5), cards):
     col.markdown(f'<div class="card"><div class="t">{t}</div><div class="v">{v}</div>'
                  f'<div class="s">{s}</div></div>', unsafe_allow_html=True)
-st.write("")
 
 def style(fig, h=330, title=None):
     fig.update_layout(height=h, margin=dict(l=10, r=10, t=44 if title else 10, b=10),
                       paper_bgcolor=PANEL, plot_bgcolor=PANEL, font=dict(color=TEXT),
-                      title=dict(text=title, x=0.02, font=dict(size=14)) if title else None,
+                      title=dict(text=title, x=0.02, font=dict(size=13)) if title else None,
                       showlegend=False)
     return fig
 
@@ -105,8 +105,8 @@ def donut(series, title):
     fig = go.Figure(go.Pie(labels=c["label"], values=c["n"], hole=0.55, sort=True,
                            marker=dict(colors=RAMP, line=dict(color=PANEL, width=2)),
                            textinfo="label+percent", textposition="outside"))
-    fig = style(fig, 440, title)
-    fig.update_layout(margin=dict(l=100, r=100, t=50, b=30))
+    fig = style(fig, 340, title)
+    fig.update_layout(margin=dict(l=90, r=90, t=44, b=16))
     return fig
 
 # ---------- row 2: donuts + income share ----------
@@ -120,7 +120,7 @@ share = ic / ic.sum() if ic.sum() else ic
 ifig = go.Figure(go.Bar(x=share.values, y=INCOME_ORDER, orientation="h", marker_color=MAROON,
                         text=[f"{v:.0%}" for v in share.values], textposition="outside"))
 ifig.update_yaxes(autorange="reversed"); ifig.update_xaxes(visible=False, range=[0, max(share.max() * 1.25, .1)])
-c3.plotly_chart(style(ifig, 440, "Income Share"), width="stretch")
+c3.plotly_chart(style(ifig, 340, "Income Share"), width="stretch")
 
 
 # ---------- row 3: regions + map + takeaways ----------
@@ -130,7 +130,7 @@ rc = reg["region"].map(nice).value_counts().sort_values()
 rfig = go.Figure(go.Bar(x=rc.values, y=rc.index, orientation="h", marker_color=MAROON,
                         text=rc.values, textposition="outside"))
 rfig.update_xaxes(visible=False, range=[0, rc.max() * 1.2])
-c4.plotly_chart(style(rfig, 390, "Respondents by Region"), width="stretch")
+c4.plotly_chart(style(rfig, 300, "Respondents by Region"), width="stretch")
 
 # map: one street map with state outlines; the buttons live inside the chart, next to the title
 pts = (d.dropna(subset=["lat", "long"]).groupby(["zip", "lat", "long"]).size()
@@ -145,13 +145,13 @@ mfig.update_traces(marker=dict(opacity=.6),
                    hovertemplate="<b>Zip Code = %{hovertext}</b><br>Respondents = %{customdata[0]}<extra></extra>")
 DENVER = dict(center=dict(lat=39.68, lon=-104.95), zoom=8.3)
 US = dict(center=dict(lat=38.5, lon=-96.5), zoom=2.9)
-mfig = style(mfig, 390, "Respondents by Zip Code")
+mfig = style(mfig, 300, "Respondents by Zip Code")
 mfig.update_layout(
-    title=dict(y=1 - 30 / 390, yref="container", yanchor="middle"),   # title centered 30px from the top
-    margin=dict(l=0, r=0, t=60, b=0),
+    title=dict(y=1 - 25 / 300, yref="container", yanchor="middle"),   # title centered 25px from the top
+    margin=dict(l=0, r=0, t=50, b=0),
     map=dict(style="carto-positron", layers=[dict(sourcetype="geojson", source=states, type="line",
                                                   color="#8A8272", line=dict(width=1))], **DENVER),
-    updatemenus=[dict(type="buttons", direction="right", active=0, x=0, xanchor="left", pad=dict(l=185, t=0, b=0, r=0), y=1.09, yanchor="middle",
+    updatemenus=[dict(type="buttons", direction="right", active=0, x=0, xanchor="left", pad=dict(l=185, t=0, b=0, r=0), y=1.1, yanchor="middle",
                       bgcolor=PANEL, bordercolor=BORDER, font=dict(size=11, color=TEXT),
                       buttons=[dict(label="Denver Area", method="relayout",
                                     args=[{"map.center": DENVER["center"], "map.zoom": DENVER["zoom"]}]),
