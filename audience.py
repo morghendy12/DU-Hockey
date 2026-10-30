@@ -22,6 +22,7 @@ st.markdown(f"""
 .block-container {{padding-top:0.6rem; padding-bottom:0.6rem; max-width:1500px;}}
 div[data-testid="stVerticalBlock"], div[data-testid="stHorizontalBlock"] {{gap:12px !important;}}
 header[data-testid="stHeader"] {{background:transparent;}}
+[data-testid="stPageLink"] {{position:relative; z-index:1000002;}}
 .band {{background:{MAROON}; color:#F8F5EE; padding:10px 20px; border-radius:8px; margin:0;}}
 .band h1 {{color:#F8F5EE; font-size:1.35rem; margin:0; padding:0; line-height:1.3;}}
 .band p {{color:{GOLD}; margin:0; font-size:.8rem;}}
