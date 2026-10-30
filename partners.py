@@ -32,6 +32,7 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .box p {{font-size:.8rem; color:{MUTED} !important; margin:6px 0 0 0;}}
 .foot {{color:{MUTED}; font-size:.72rem; margin:0;}}
 .tblbox {{padding:8px 12px;}}
+.box.shortbox {{height:225px;}}
 .ptbl {{width:100%; border-collapse:collapse; font-size:.7rem; color:{TEXT};}}
 .tscroll {{height:282px; overflow-y:auto; overflow-x:hidden;}}
 .ptbl th {{text-align:left; border-bottom:1px solid {BORDER}; padding:2px 6px; font-weight:600; position:sticky; top:0; background:{PANEL};}}
@@ -155,7 +156,7 @@ ideas = [("Real Estate / Mortgage", ["real estate", "mortgage"], f"{metro_share:
          ("Travel / Airlines", ["travel", "airline"], f"{oos:.0%} of respondents live outside Colorado")]
 ideas = [(n, w) for n, k, w in ideas if not any(x in present for x in k)]
 li = "".join(f"<li><b>{n}</b>: {w}.</li>" for n, w in ideas)
-c4.markdown(f'<div class="box"><h4>Ideas to Test: Categories to Consider</h4><ul>{li}</ul></div>',
+c4.markdown(f'<div class="box shortbox"><h4>Ideas to Test: Categories to Consider</h4><ul>{li}</ul></div>',
             unsafe_allow_html=True)
 
 caveats = [f"The tiered list ({len(partners)}) and the master list ({n_master}) do not match. "
@@ -166,7 +167,7 @@ caveats = [f"The tiered list ({len(partners)}) and the master list ({n_master}) 
            "There are no lapsed partners in either list, so renewal patterns cannot be measured. "
            "Only 5 partners are marked as renewed."]
 li = "".join(f"<li>{c}</li>" for c in caveats)
-c5.markdown(f'<div class="box"><h4>What This Data Can and Cannot Tell Us</h4><ul>{li}</ul></div>',
+c5.markdown(f'<div class="box shortbox"><h4>What This Data Can and Cannot Tell Us</h4><ul>{li}</ul></div>',
             unsafe_allow_html=True)
 
 st.markdown(f'<div style="padding-top:16px"><div class="foot">Source: DU Athletics sponsor lists. '
