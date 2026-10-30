@@ -25,11 +25,11 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .band {{background:{MAROON}; color:#F8F5EE; padding:10px 20px; border-radius:8px; margin:0;}}
 .band h1 {{color:#F8F5EE; font-size:1.35rem; margin:0; padding:0; line-height:1.3;}}
 .band p {{color:{GOLD}; margin:0; font-size:.8rem;}}
-.card {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0 0 8px 0;
+.card {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0 0 6px 0;
         box-shadow:2px 2px 4px rgba(0,0,0,.08); text-align:center; overflow:hidden;}}
-.card .t {{background:{BORDER}; color:{TEXT}; font-size:.72rem; font-weight:600; padding:4px;}}
-.card .v {{font-size:1.65rem; font-weight:600; color:{TEXT}; padding-top:4px; line-height:1.25;}}
-.card .s {{font-size:.68rem; color:{MUTED};}}
+.card .t {{background:{BORDER}; color:{TEXT}; font-size:.68rem; font-weight:600; padding:3px;}}
+.card .v {{font-size:1.4rem; font-weight:600; color:{TEXT}; padding-top:2px; line-height:1.2;}}
+.card .s {{font-size:.64rem; color:{MUTED};}}
 .box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:10px 16px; box-sizing:border-box; height:302px; overflow:hidden;}}
 .box, .box h4, .box li {{color:{TEXT} !important;}}
 .box h4 {{margin:0 0 4px 0; font-size:.95rem;}}
@@ -54,8 +54,8 @@ def load():
 df = load()
 
 # ---------- header + filters ----------
-st.markdown("""<div class="band"><h1>DU Hockey Audience Profile</h1>
-<p>Survey respondents and ticket holders, 2025-27</p></div>""", unsafe_allow_html=True)
+st.markdown("""<div style="padding-bottom:16px"><div class="band"><h1>DU Hockey Audience Profile</h1>
+<p>Survey respondents and ticket holders, 2025-27</p></div></div>""", unsafe_allow_html=True)
 
 f1, f2 = st.columns(2)
 tix_opts = df["ticket_type"].dropna().unique().tolist()
@@ -89,8 +89,8 @@ cards = [("Respondents", f"{n:,}", "survey responses"),
          ("Alumni & Parents", ap, "of ticket-type group"),
          ("Tickets Redeemed", redemption, "2025-26 season")]
 for col, (t, v, s) in zip(st.columns(5), cards):
-    col.markdown(f'<div class="card"><div class="t">{t}</div><div class="v">{v}</div>'
-                 f'<div class="s">{s}</div></div>', unsafe_allow_html=True)
+    col.markdown(f'<div style="padding-bottom:16px"><div class="card"><div class="t">{t}</div>'
+                 f'<div class="v">{v}</div><div class="s">{s}</div></div></div>', unsafe_allow_html=True)
 
 def style(fig, h=330, title=None):
     fig.update_layout(height=h, margin=dict(l=10, r=10, t=44 if title else 10, b=10),
