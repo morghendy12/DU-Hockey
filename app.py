@@ -1,3 +1,5 @@
+import json
+
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -27,13 +29,11 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .card .t {{background:{BORDER}; color:{TEXT}; font-size:.8rem; font-weight:600; padding:6px;}}
 .card .v {{font-size:2.1rem; font-weight:600; color:{TEXT}; padding-top:8px;}}
 .card .s {{font-size:.75rem; color:{MUTED};}}
-.box {{ padding:0 4px;}}
+.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:14px 18px; box-sizing:border-box; height:392px; overflow:hidden;}}
 .box h4 {{margin:0 0 6px 0; font-size:1rem;}}
 .box li {{margin-bottom:6px; font-size:.92rem;}}
 .foot {{color:{MUTED}; font-size:.78rem; margin-top:8px;}}
 div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0; overflow:hidden;}}
-div[data-testid="stVerticalBlockBorderWrapper"] {{background:{PANEL}; border-color:{BORDER}; border-radius:8px;}}
-div[data-testid="stVerticalBlockBorderWrapper"] div[data-testid="stPlotlyChart"] {{border:none; background:transparent;}}
 </style>""", unsafe_allow_html=True)
 
 
@@ -123,39 +123,39 @@ c3.plotly_chart(style(ifig, 440, "Income Share"), width="stretch")
 
 
 # ---------- row 3: regions + map + takeaways ----------
-BOX_H = 430
 c4, c5, c6 = st.columns([1, 1.4, 1])
-box4 = c4.container(border=True, height=BOX_H)
-box5 = c5.container(border=True, height=BOX_H)
-box6 = c6.container(border=True, height=BOX_H)
+
 rc = reg["region"].map(nice).value_counts().sort_values()
 rfig = go.Figure(go.Bar(x=rc.values, y=rc.index, orientation="h", marker_color=MAROON,
                         text=rc.values, textposition="outside"))
 rfig.update_xaxes(visible=False, range=[0, rc.max() * 1.2])
-box4.plotly_chart(style(rfig, 360, "Respondents by Region"), width="stretch")
+c4.plotly_chart(style(rfig, 390, "Respondents by Region"), width="stretch")
 
+# map: one street map with state outlines; the buttons live inside the chart, next to the title
 pts = (d.dropna(subset=["lat", "long"]).groupby(["zip", "lat", "long"]).size()
        .reset_index(name="n"))
-view = box5.radio("Map view", ["Denver area", "Entire US"], horizontal=True, label_visibility="collapsed")
-if view == "Denver area":
-    mfig = px.scatter_map(pts, lat="lat", lon="long", size="n", hover_name="zip",
-                          hover_data={"n": True, "lat": False, "long": False},
-                          labels={"n": "Respondents", "zip": "Zip code"},
-                          size_max=28, color_discrete_sequence=[MAROON])
-    mfig.update_traces(marker=dict(opacity=.6))
-    mfig.update_layout(map=dict(style="carto-positron", center=dict(lat=39.68, lon=-104.95), zoom=8.3))
-else:
-    mfig = px.scatter_geo(pts, lat="lat", lon="long", size="n", hover_name="zip",
-                          hover_data={"n": True, "lat": False, "long": False},
-                          labels={"n": "Respondents", "zip": "Zip code"},
-                          scope="usa", size_max=40, color_discrete_sequence=[MAROON])
-    mfig.update_traces(marker=dict(opacity=.6, line=dict(width=0)))
-    mfig.update_geos(bgcolor=PANEL, landcolor="#E9E5DB", subunitcolor="#8A8272", subunitwidth=1,
-                     countrycolor="#8A8272", showlakes=False, showsubunits=True)
-mfig.update_traces(hovertemplate="<b>Zip Code = %{hovertext}</b><br>Respondents = %{customdata[0]}<extra></extra>")
-mfig = style(mfig, 330, "Respondents by Zip Code")
-mfig.update_layout(margin=dict(l=0, r=0, t=44, b=0))
-box5.plotly_chart(mfig, width="stretch")
+with open("data/us_states.json") as f:
+    states = json.load(f)
+mfig = px.scatter_map(pts, lat="lat", lon="long", size="n", hover_name="zip",
+                      hover_data={"n": True, "lat": False, "long": False},
+                      labels={"n": "Respondents", "zip": "Zip code"},
+                      size_max=28, color_discrete_sequence=[MAROON])
+mfig.update_traces(marker=dict(opacity=.6),
+                   hovertemplate="<b>Zip Code = %{hovertext}</b><br>Respondents = %{customdata[0]}<extra></extra>")
+DENVER = dict(center=dict(lat=39.68, lon=-104.95), zoom=8.3)
+US = dict(center=dict(lat=38.5, lon=-96.5), zoom=2.9)
+mfig = style(mfig, 390, "Respondents by Zip Code")
+mfig.update_layout(
+    margin=dict(l=0, r=0, t=44, b=0),
+    map=dict(style="carto-positron", layers=[dict(sourcetype="geojson", source=states, type="line",
+                                                  color="#8A8272", line=dict(width=1))], **DENVER),
+    updatemenus=[dict(type="buttons", direction="right", active=0, x=1, xanchor="right", y=1.1, yanchor="bottom",
+                      bgcolor=PANEL, bordercolor=BORDER, font=dict(size=11, color=TEXT),
+                      buttons=[dict(label="Denver Area", method="relayout",
+                                    args=[{"map.center": DENVER["center"], "map.zoom": DENVER["zoom"]}]),
+                               dict(label="Entire US", method="relayout",
+                                    args=[{"map.center": US["center"], "map.zoom": US["zoom"]}])])])
+c5.plotly_chart(mfig, width="stretch")
 
 # takeaways: computed from the filtered data so they never go stale
 def take():
@@ -177,7 +177,7 @@ def take():
         f"Parents are the most spread out: only {metro_pct(df[df['rel_group'] == 'Parent'])} live in the Denver metro, vs {metro_pct(df[df['rel_group'] == 'Alum'])} of alumni.",
     ]
 li = "".join(f"<li>{t}</li>" for t in take())
-box6.markdown(f'<div class="box"><h4>Key Takeaways</h4><ul>{li}</ul></div>', unsafe_allow_html=True)
+c6.markdown(f'<div class="box"><h4>Key Takeaways</h4><ul>{li}</ul></div>', unsafe_allow_html=True)
 
 st.markdown(f"""<div class="foot">Source: DU Athletics fan survey ({len(df):,} respondents) and 2025-26 ticket data.
 Survey respondents are self-selected; income and region shares use only respondents who answered.
