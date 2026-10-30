@@ -30,6 +30,7 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .card .v {{font-size:2.1rem; font-weight:600; color:{TEXT}; padding-top:8px;}}
 .card .s {{font-size:.75rem; color:{MUTED};}}
 .box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:14px 18px; box-sizing:border-box; height:392px; overflow:hidden;}}
+.box, .box h4, .box li {{color:{TEXT} !important;}}
 .box h4 {{margin:0 0 6px 0; font-size:1rem;}}
 .box li {{margin-bottom:6px; font-size:.92rem;}}
 .foot {{color:{MUTED}; font-size:.78rem; margin-top:8px;}}
