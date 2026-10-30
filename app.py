@@ -54,7 +54,7 @@ def load():
 df = load()
 
 # ---------- header + filters ----------
-st.markdown("""<div style="padding-bottom:16px"><div class="band"><h1>DU Hockey Audience Profile</h1>
+st.markdown("""<div style="padding-bottom:10px"><div class="band"><h1>DU Hockey Audience Profile</h1>
 <p>Survey respondents and ticket holders, 2025-27</p></div></div>""", unsafe_allow_html=True)
 
 f1, f2 = st.columns(2)
