@@ -16,10 +16,6 @@ st.markdown(f"""
 .block-container {{padding-top:0.6rem; padding-bottom:0.6rem; max-width:1500px;}}
 div[data-testid="stVerticalBlock"], div[data-testid="stHorizontalBlock"] {{gap:12px !important;}}
 header[data-testid="stHeader"] {{background:transparent;}}
-section[data-testid="stSidebar"] {{background:{PAGE}; border-right:none;}}
-section[data-testid="stSidebar"] > div {{background:{PAGE};}}
-section[data-testid="stSidebar"] {{width:140px !important; min-width:140px !important;}}
-section[data-testid="stSidebar"] > div {{width:140px !important;}}
 .band {{background:{MAROON}; color:#F8F5EE; padding:10px 20px; border-radius:8px; margin:0;}}
 .band h1 {{color:#F8F5EE; font-size:1.35rem; margin:0; padding:0; line-height:1.3;}}
 .band p {{color:{GOLD}; margin:0; font-size:.8rem;}}
@@ -29,16 +25,16 @@ section[data-testid="stSidebar"] > div {{width:140px !important;}}
 .card .v {{font-size:1.4rem; font-weight:600; color:{TEXT}; padding-top:2px; line-height:1.2;}}
 .card .s {{font-size:.64rem; color:{MUTED};}}
 .box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:10px 16px;
-       box-sizing:border-box; height:342px; overflow:hidden;}}
+       box-sizing:border-box; height:340px; overflow:hidden;}}
 .box, .box h4, .box li, .box p {{color:{TEXT} !important;}}
 .box h4 {{margin:0 0 4px 0; font-size:.95rem;}}
 .box li {{margin-bottom:4px; font-size:.85rem;}}
 .box p {{font-size:.8rem; color:{MUTED} !important; margin:6px 0 0 0;}}
 .foot {{color:{MUTED}; font-size:.72rem; margin:0;}}
-.tblbox {{padding:10px 12px;}}
-.ptbl {{width:100%; border-collapse:collapse; font-size:.72rem; color:{TEXT};}}
-.ptbl th {{text-align:left; border-bottom:1px solid {BORDER}; padding:2px 6px; font-weight:600;}}
-.ptbl td {{padding:2px 6px; border-bottom:1px solid {BORDER}; line-height:1.25; white-space:nowrap;}}
+.tblbox {{padding:8px 12px;}}
+.ptbl {{width:100%; border-collapse:collapse; font-size:.7rem; color:{TEXT};}}
+.ptbl th {{text-align:left; border-bottom:1px solid {BORDER}; padding:1px 6px; font-weight:600;}}
+.ptbl td {{padding:1px 6px; border-bottom:1px solid {BORDER}; line-height:1.2; white-space:nowrap;}}
 div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0; overflow:hidden;}}
 </style>""", unsafe_allow_html=True)
 
@@ -70,6 +66,11 @@ missing = [n for n in partners["Partner"].str.strip().str.lower() if n not in ma
 missing_names = partners.loc[partners["Partner"].str.lower().isin(missing), "Partner"].tolist()
 
 # ---------- header ----------
+# page buttons (replace the sidebar menu)
+n1, n2, _ = st.columns([1.3, 1, 8])
+n1.page_link("audience.py", label="Audience Profile")
+n2.page_link("partners.py", label="Partners")
+
 st.markdown('<div style="padding-bottom:10px"><div class="band"><h1>DU Hockey Partner Portfolio</h1>'
             '<p>Who partners with DU Hockey today</p></div></div>',
             unsafe_allow_html=True)
