@@ -56,8 +56,8 @@ st.markdown("""<div class="band"><h1>DU Hockey Audience Profile</h1>
 f1, f2 = st.columns(2)
 tix_opts = df["ticket_type"].dropna().unique().tolist()
 rel_opts = ["Alum", "Parent", "General fan", "Student", "Faculty/staff"]
-tix_sel = f1.multiselect("Ticket Type", tix_opts, placeholder="All ticket types", format_func=nice)
-rel_sel = f2.multiselect("Relationship", rel_opts, placeholder="All relationships", format_func=nice)
+tix_sel = f1.multiselect("Ticket Type", tix_opts, placeholder="All Ticket Types", format_func=nice)
+rel_sel = f2.multiselect("Relationship", rel_opts, placeholder="All Relationships", format_func=nice)
 
 d_tix = df[df["ticket_type"].isin(tix_sel)] if tix_sel else df          # ticket filter only
 d = d_tix[d_tix["rel_group"].isin(rel_sel)] if rel_sel else d_tix       # both filters
@@ -81,9 +81,9 @@ redemption = pct(REDEEMED, SOLD)
 
 cards = [("Respondents", f"{n:,}", "survey responses"),
          ("Earn $100K+", p100, f"of {len(inc):,} who answered"),
-         ("Live in Denver metro", metro, f"of {len(reg):,} with a known zip code"),
+         ("Live in Denver Metro", metro, f"of {len(reg):,} with a known zip code"),
          ("Alumni & Parents", ap, "of ticket-type group"),
-         ("Tickets redeemed", redemption, "2025-26 season")]
+         ("Tickets Redeemed", redemption, "2025-26 season")]
 for col, (t, v, s) in zip(st.columns(5), cards):
     col.markdown(f'<div class="card"><div class="t">{t}</div><div class="v">{v}</div>'
                  f'<div class="s">{s}</div></div>', unsafe_allow_html=True)
@@ -129,7 +129,8 @@ else:
     mfig.update_traces(marker=dict(opacity=.6, line=dict(width=0)))
     mfig.update_geos(bgcolor=PANEL, landcolor="#E9E5DB", subunitcolor="#8A8272", subunitwidth=1,
                      countrycolor="#8A8272", showlakes=False, showsubunits=True)
-mfig = style(mfig, 400, "Where respondents live")
+mfig.update_traces(hovertemplate="<b>Zip Code = %{hovertext}</b><br>Respondents = %{customdata[0]}<extra></extra>")
+mfig = style(mfig, 400, "Where Respondents Live")
 mfig.update_layout(margin=dict(l=0, r=0, t=44, b=0))
 c3.plotly_chart(mfig, width="stretch")
 
@@ -147,7 +148,7 @@ rc = reg["region"].map(nice).value_counts().sort_values()
 rfig = go.Figure(go.Bar(x=rc.values, y=rc.index, orientation="h", marker_color=MAROON,
                         text=rc.values, textposition="outside"))
 rfig.update_xaxes(visible=False, range=[0, rc.max() * 1.2])
-c5.plotly_chart(style(rfig, 330, "Respondents by region"), width="stretch")
+c5.plotly_chart(style(rfig, 330, "Respondents by Region"), width="stretch")
 
 # takeaways: computed from the filtered data so they never go stale
 def take():
@@ -169,7 +170,7 @@ def take():
         f"Parents are the most spread out: only {metro_pct(df[df['rel_group'] == 'Parent'])} live in the Denver metro, vs {metro_pct(df[df['rel_group'] == 'Alum'])} of alumni.",
     ]
 li = "".join(f"<li>{t}</li>" for t in take())
-c6.markdown(f'<div class="box"><h4>Key takeaways</h4><ul>{li}</ul></div>', unsafe_allow_html=True)
+c6.markdown(f'<div class="box"><h4>Key Takeaways</h4><ul>{li}</ul></div>', unsafe_allow_html=True)
 
 st.markdown(f"""<div class="foot">Source: DU Athletics fan survey ({len(df):,} respondents) and 2025-26 ticket data.
 Survey respondents are self-selected; income and region shares use only respondents who answered.
