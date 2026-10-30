@@ -1,3 +1,5 @@
+import html
+
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -16,8 +18,8 @@ div[data-testid="stVerticalBlock"], div[data-testid="stHorizontalBlock"] {{gap:1
 header[data-testid="stHeader"] {{background:transparent;}}
 section[data-testid="stSidebar"] {{background:{PAGE}; border-right:none;}}
 section[data-testid="stSidebar"] > div {{background:{PAGE};}}
-section[data-testid="stSidebar"] {{width:170px !important; min-width:170px !important;}}
-section[data-testid="stSidebar"] > div {{width:170px !important;}}
+section[data-testid="stSidebar"] {{width:140px !important; min-width:140px !important;}}
+section[data-testid="stSidebar"] > div {{width:140px !important;}}
 .band {{background:{MAROON}; color:#F8F5EE; padding:10px 20px; border-radius:8px; margin:0;}}
 .band h1 {{color:#F8F5EE; font-size:1.35rem; margin:0; padding:0; line-height:1.3;}}
 .band p {{color:{GOLD}; margin:0; font-size:.8rem;}}
@@ -33,6 +35,10 @@ section[data-testid="stSidebar"] > div {{width:170px !important;}}
 .box li {{margin-bottom:4px; font-size:.85rem;}}
 .box p {{font-size:.8rem; color:{MUTED} !important; margin:6px 0 0 0;}}
 .foot {{color:{MUTED}; font-size:.72rem; margin:0;}}
+.tblbox {{padding:10px 12px;}}
+.ptbl {{width:100%; border-collapse:collapse; font-size:.72rem; color:{TEXT};}}
+.ptbl th {{text-align:left; border-bottom:1px solid {BORDER}; padding:2px 6px; font-weight:600;}}
+.ptbl td {{padding:2px 6px; border-bottom:1px solid {BORDER}; line-height:1.25; white-space:nowrap;}}
 div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0; overflow:hidden;}}
 </style>""", unsafe_allow_html=True)
 
@@ -85,7 +91,7 @@ def style(fig, h, title):
     return fig
 
 # ---------- row 2: industry mix, start year, partner table ----------
-c1, c2, c3 = st.columns([1.2, 1, 1.2])
+c1, c2, c3 = st.columns([1.05, 0.9, 1.55])
 
 ind = master["industry"].value_counts().sort_values()
 ifig = go.Figure(go.Bar(x=ind.values, y=ind.index, orientation="h", marker_color=MAROON,
@@ -94,28 +100,30 @@ ifig.update_xaxes(visible=False, range=[0, ind.max() * 1.2])
 ifig.update_yaxes(tickfont=dict(size=10))
 c1.plotly_chart(style(ifig, 340, "Partners by Industry"), width="stretch")
 
-tl = partners.sort_values(["Year", "Partner"], ascending=[False, True])   # oldest partners at the top
+by_year = partners.groupby(["Year", "Tier"]).size().reset_index(name="n")
 yfig = go.Figure()
 for tier in ["High", "Mid", "Small"]:
-    d = tl[tl["Tier"] == tier]
-    yfig.add_trace(go.Scatter(x=d["Year"], y=d["Partner"], mode="markers", name=tier,
-                              marker=dict(size=12, color=TIER_COLORS[tier], line=dict(color=PANEL, width=1)),
-                              hovertemplate="<b>%{y}</b><br>Started: %{x}<extra>" + tier + " tier</extra>"))
-yfig.update_xaxes(range=[1990, 2027], dtick=5, gridcolor=BORDER)
-yfig.update_yaxes(categoryorder="array", categoryarray=tl["Partner"].tolist(), tickfont=dict(size=10),
-                  gridcolor=BORDER)
-yfig.update_layout(showlegend=True, legend=dict(orientation="h", y=1.04, x=1, xanchor="right"))
-fy = style(yfig, 340, "When Each Partner Started")
-fy.update_layout(showlegend=True, margin=dict(l=10, r=10, t=44, b=24))
+    d = by_year[by_year["Tier"] == tier]
+    yfig.add_bar(x=d["Year"].astype(str), y=d["n"], name=tier, marker_color=TIER_COLORS[tier])
+yfig.update_layout(barmode="stack", showlegend=True, legend=dict(orientation="h", y=1.0, x=1, xanchor="right"))
+yfig.update_xaxes(type="category", categoryorder="array",
+                  categoryarray=[str(y) for y in sorted(partners["Year"].unique())])
+yfig.update_yaxes(dtick=1, gridcolor=BORDER)
+fy = style(yfig, 340, "Partners by Start Year and Tier")
+fy.update_layout(showlegend=True)
 c2.plotly_chart(fy, width="stretch")
 
 tbl = partners.copy()
 tbl["Tier"] = pd.Categorical(tbl["Tier"], ["High", "Mid", "Small"], ordered=True)
 tbl = tbl.sort_values(["Tier", "Year"]).rename(columns={"Year": "Started"})
 tbl["Started"] = tbl["Started"].astype(str)
-with c3.container(height=342):
-    st.dataframe(tbl[["Partner", "Category", "Tier", "Exclusive", "Started"]], hide_index=True,
-                 width="stretch", height=300)
+rows = "".join(
+    f"<tr><td>{html.escape(r.Partner)}</td><td>{html.escape(r.Category)}</td>"
+    f"<td><span style='color:{TIER_COLORS[r.Tier]}'>&#9679;</span> {r.Tier}</td>"
+    f"<td>{r.Exclusive}</td><td>{r.Started}</td></tr>" for r in tbl.itertuples())
+c3.markdown(f'<div class="box tblbox"><h4>All Tiered Partners</h4><table class="ptbl"><thead><tr>'
+            f'<th>Partner</th><th>Category</th><th>Tier</th><th>Exclusive</th><th>Started</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table></div>', unsafe_allow_html=True)
 
 # ---------- row 3: ideas + caveats ----------
 c4, c5 = st.columns(2)
