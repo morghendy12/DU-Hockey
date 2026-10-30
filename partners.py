@@ -6,6 +6,7 @@ import streamlit as st
 # ---------- palette (same as the Audience page) ----------
 MAROON, GOLD = "#5E1A10", "#CCBA8C"
 PANEL, BORDER, TEXT, MUTED = "#F8F5EE", "#D9D2C2", "#2B2B2B", "#6B6358"
+PAGE = "#E9E5DB"
 TIER_COLORS = {"High": MAROON, "Mid": GOLD, "Small": "#A8A196"}
 
 st.markdown(f"""
@@ -13,6 +14,8 @@ st.markdown(f"""
 .block-container {{padding-top:0.6rem; padding-bottom:0.6rem; max-width:1500px;}}
 div[data-testid="stVerticalBlock"], div[data-testid="stHorizontalBlock"] {{gap:12px !important;}}
 header[data-testid="stHeader"] {{background:transparent;}}
+section[data-testid="stSidebar"] {{background:{PAGE}; border-right:none;}}
+section[data-testid="stSidebar"] > div {{background:{PAGE};}}
 .band {{background:{MAROON}; color:#F8F5EE; padding:10px 20px; border-radius:8px; margin:0;}}
 .band h1 {{color:#F8F5EE; font-size:1.35rem; margin:0; padding:0; line-height:1.3;}}
 .band p {{color:{GOLD}; margin:0; font-size:.8rem;}}
