@@ -180,6 +180,6 @@ def take():
 li = "".join(f"<li>{t}</li>" for t in take())
 c6.markdown(f'<div class="box"><h4>Key Takeaways</h4><ul>{li}</ul></div>', unsafe_allow_html=True)
 
-st.markdown(f"""<div class="foot">Source: DU Athletics fan survey ({len(df):,} respondents) and 2025-27 ticket data.
+st.markdown(f"""<div style="padding-top:16px"><div class="foot">Source: DU Athletics fan survey ({len(df):,} respondents) and 2025-27 ticket data.
 Survey respondents are self-selected; income and region shares use only respondents who answered.
-Redemption rate is season-wide and does not change with filters.</div>""", unsafe_allow_html=True)
+Redemption rate is season-wide and does not change with filters.</div></div>""", unsafe_allow_html=True)

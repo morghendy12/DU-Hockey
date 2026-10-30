@@ -60,7 +60,7 @@ missing_names = partners.loc[partners["Partner"].str.lower().isin(missing), "Par
 
 # ---------- header ----------
 st.markdown('<div style="padding-bottom:10px"><div class="band"><h1>DU Hockey Partner Portfolio</h1>'
-            '<p>Who partners with DU Hockey today, from the department\'s sponsor lists</p></div></div>',
+            '<p>Who partners with DU Hockey today</p></div></div>',
             unsafe_allow_html=True)
 
 cards = [("Partners on Master List", f"{n_master}", f"{n_industries} industries"),
@@ -89,17 +89,19 @@ ifig.update_xaxes(visible=False, range=[0, ind.max() * 1.2])
 ifig.update_yaxes(tickfont=dict(size=10))
 c1.plotly_chart(style(ifig, 340, "Partners by Industry"), width="stretch")
 
-by_year = partners.groupby(["Year", "Tier"]).size().reset_index(name="n")
+tl = partners.sort_values(["Year", "Partner"], ascending=[False, True])   # oldest partners at the top
 yfig = go.Figure()
 for tier in ["High", "Mid", "Small"]:
-    d = by_year[by_year["Tier"] == tier]
-    yfig.add_bar(x=d["Year"].astype(str), y=d["n"], name=tier, marker_color=TIER_COLORS[tier])
-yfig.update_layout(barmode="stack", showlegend=True, legend=dict(orientation="h", y=1.0, x=1, xanchor="right"))
-yfig.update_xaxes(type="category", categoryorder="array",
-                  categoryarray=[str(y) for y in sorted(partners["Year"].unique())])
-yfig.update_yaxes(dtick=1, gridcolor=BORDER)
-fy = style(yfig, 340, "Partners by Start Year and Tier")
-fy.update_layout(showlegend=True)
+    d = tl[tl["Tier"] == tier]
+    yfig.add_trace(go.Scatter(x=d["Year"], y=d["Partner"], mode="markers", name=tier,
+                              marker=dict(size=12, color=TIER_COLORS[tier], line=dict(color=PANEL, width=1)),
+                              hovertemplate="<b>%{y}</b><br>Started: %{x}<extra>" + tier + " tier</extra>"))
+yfig.update_xaxes(range=[1990, 2027], dtick=5, gridcolor=BORDER)
+yfig.update_yaxes(categoryorder="array", categoryarray=tl["Partner"].tolist(), tickfont=dict(size=10),
+                  gridcolor=BORDER)
+yfig.update_layout(showlegend=True, legend=dict(orientation="h", y=1.04, x=1, xanchor="right"))
+fy = style(yfig, 340, "When Each Partner Started")
+fy.update_layout(showlegend=True, margin=dict(l=10, r=10, t=44, b=24))
 c2.plotly_chart(fy, width="stretch")
 
 tbl = partners.copy()
@@ -121,10 +123,7 @@ ideas = [("Real Estate / Mortgage", ["real estate", "mortgage"], f"{metro_share:
          ("Travel / Airlines", ["travel", "airline"], f"{oos:.0%} of respondents live outside Colorado")]
 ideas = [(n, w) for n, k, w in ideas if not any(x in present for x in k)]
 li = "".join(f"<li><b>{n}</b>: {w}.</li>" for n, w in ideas)
-c4.markdown(f'<div class="box"><h4>Ideas to Test: Categories to Consider</h4><ul>{li}</ul>'
-            f'<p>These are starting points to discuss with the department, not model results. '
-            f'The audience figures come from the survey on the Audience Profile page. Before pursuing '
-            f'any category, confirm it is not already taken by an exclusive partner.</p></div>',
+c4.markdown(f'<div class="box"><h4>Ideas to Test: Categories to Consider</h4><ul>{li}</ul></div>',
             unsafe_allow_html=True)
 
 caveats = [f"The tiered list ({len(partners)}) and the master list ({n_master}) do not match. "
@@ -138,5 +137,6 @@ li = "".join(f"<li>{c}</li>" for c in caveats)
 c5.markdown(f'<div class="box"><h4>What This Data Can and Cannot Tell Us</h4><ul>{li}</ul></div>',
             unsafe_allow_html=True)
 
-st.markdown(f'<div class="foot">Source: DU Athletics sponsor lists. Audience figures use the fan survey '
-            f'({len(survey):,} respondents).</div>', unsafe_allow_html=True)
+st.markdown(f'<div style="padding-top:16px"><div class="foot">Source: DU Athletics sponsor lists. '
+            f'Audience figures use the fan survey ({len(survey):,} respondents).</div></div>',
+            unsafe_allow_html=True)
