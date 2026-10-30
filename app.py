@@ -146,10 +146,10 @@ DENVER = dict(center=dict(lat=39.68, lon=-104.95), zoom=8.3)
 US = dict(center=dict(lat=38.5, lon=-96.5), zoom=2.9)
 mfig = style(mfig, 390, "Respondents by Zip Code")
 mfig.update_layout(
-    margin=dict(l=0, r=0, t=44, b=0),
+    margin=dict(l=0, r=0, t=60, b=0),
     map=dict(style="carto-positron", layers=[dict(sourcetype="geojson", source=states, type="line",
                                                   color="#8A8272", line=dict(width=1))], **DENVER),
-    updatemenus=[dict(type="buttons", direction="right", active=0, x=0.55, xanchor="center", y=1.06, yanchor="middle",
+    updatemenus=[dict(type="buttons", direction="right", active=0, x=0.55, xanchor="center", y=1.09, yanchor="middle",
                       bgcolor=PANEL, bordercolor=BORDER, font=dict(size=11, color=TEXT),
                       buttons=[dict(label="Denver Area", method="relayout",
                                     args=[{"map.center": DENVER["center"], "map.zoom": DENVER["zoom"]}]),
@@ -179,6 +179,6 @@ def take():
 li = "".join(f"<li>{t}</li>" for t in take())
 c6.markdown(f'<div class="box"><h4>Key Takeaways</h4><ul>{li}</ul></div>', unsafe_allow_html=True)
 
-st.markdown(f"""<div class="foot">Source: DU Athletics fan survey ({len(df):,} respondents) and 2025-26 ticket data.
+st.markdown(f"""<div class="foot">Source: DU Athletics fan survey ({len(df):,} respondents) and 2025-27 ticket data.
 Survey respondents are self-selected; income and region shares use only respondents who answered.
 Redemption rate is season-wide and does not change with filters.</div>""", unsafe_allow_html=True)
