@@ -33,8 +33,9 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .foot {{color:{MUTED}; font-size:.72rem; margin:0;}}
 .tblbox {{padding:8px 12px;}}
 .ptbl {{width:100%; border-collapse:collapse; font-size:.7rem; color:{TEXT};}}
-.ptbl th {{text-align:left; border-bottom:1px solid {BORDER}; padding:1px 6px; font-weight:600;}}
-.ptbl td {{padding:1px 6px; border-bottom:1px solid {BORDER}; line-height:1.2; white-space:nowrap;}}
+.tscroll {{height:282px; overflow-y:auto; overflow-x:hidden;}}
+.ptbl th {{text-align:left; border-bottom:1px solid {BORDER}; padding:2px 6px; font-weight:600; position:sticky; top:0; background:{PANEL};}}
+.ptbl td {{padding:2px 6px; border-bottom:1px solid {BORDER}; line-height:1.2;}}
 div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:0; overflow:hidden;}}
 </style>""", unsafe_allow_html=True)
 
@@ -43,6 +44,7 @@ div[data-testid="stPlotlyChart"] {{background:{PANEL}; border:1px solid {BORDER}
 def load():
     p = pd.read_csv("data/partners.csv")
     m = pd.read_csv("data/sponsors_master.csv")
+    m["partner"] = m["partner"].str.strip()   # some names have stray trailing spaces
     m["industry"] = (m["industry"].str.replace("_and_", " & ").str.replace("_", " ").str.title())
     s = pd.read_csv("data/survey_clean.csv", dtype={"zip": str})
     s["region"] = s["region"].fillna("Unknown")
@@ -75,7 +77,7 @@ st.markdown('<div style="padding-bottom:10px"><div class="band"><h1>DU Hockey Pa
             '<p>Who partners with DU Hockey today</p></div></div>',
             unsafe_allow_html=True)
 
-cards = [("Partners on Master List", f"{n_master}", f"{n_industries} industries"),
+cards = [("All Partners", f"{n_master + len(missing_names)}", f"{n_master} on master list, {len(missing_names)} tiered only"),
          ("Partners with Tier Data", f"{len(partners)}", f"{n_high} High, "
           f"{(partners['Tier'] == 'Mid').sum()} Mid, {(partners['Tier'] == 'Small').sum()} Small"),
          ("Started in 2024-25", f"{recent / len(partners):.0%}", f"{recent} of {len(partners)} tiered partners"),
@@ -91,8 +93,8 @@ def style(fig, h, title):
                       title=dict(text=title, x=0.02, font=dict(size=13)), showlegend=False)
     return fig
 
-# ---------- row 2: industry mix, start year, partner table ----------
-c1, c2, c3 = st.columns([1.05, 0.9, 1.55])
+# ---------- row 2: industry mix, start year, all-partners list ----------
+c1, c2, c3 = st.columns([1.05, 0.9, 1.6])
 
 ind = master["industry"].value_counts().sort_values()
 ifig = go.Figure(go.Bar(x=ind.values, y=ind.index, orientation="h", marker_color=MAROON,
@@ -110,21 +112,37 @@ yfig.update_layout(barmode="stack", showlegend=True, legend=dict(orientation="h"
 yfig.update_xaxes(type="category", categoryorder="array",
                   categoryarray=[str(y) for y in sorted(partners["Year"].unique())])
 yfig.update_yaxes(dtick=1, gridcolor=BORDER)
-fy = style(yfig, 340, "Partners by Start Year and Tier")
+fy = style(yfig, 340, f"Tiered Partners by Start Year ({len(partners)})")
 fy.update_layout(showlegend=True)
 c2.plotly_chart(fy, width="stretch")
 
-tbl = partners.copy()
-tbl["Tier"] = pd.Categorical(tbl["Tier"], ["High", "Mid", "Small"], ordered=True)
-tbl = tbl.sort_values(["Tier", "Year"]).rename(columns={"Year": "Started"})
-tbl["Started"] = tbl["Started"].astype(str)
+# one list of every partner: master list (44) plus tiered partners that are not on it
+master_ci = master.assign(key=master["partner"].str.strip().str.lower())
+tiers = partners.assign(key=partners["Partner"].str.strip().str.lower())
+allp = master_ci.merge(tiers[["key", "Tier", "Exclusive", "Year"]], on="key", how="outer")
+extra = allp["partner"].isna()
+allp.loc[extra, "partner"] = tiers.set_index("key").loc[allp.loc[extra, "key"], "Partner"].values
+allp.loc[extra, "industry"] = tiers.set_index("key").loc[allp.loc[extra, "key"], "Category"].values
+allp.loc[extra, "status"] = "not on master list"
+allp["rank"] = allp["Tier"].map({"High": 0, "Mid": 1, "Small": 2}).fillna(3)
+allp = allp.sort_values(["rank", "Year", "industry", "partner"], na_position="last")
+
+
+def cell(v):
+    return "&ndash;" if pd.isna(v) else html.escape(str(v))
+
+def tier_cell(t):
+    return "&ndash;" if pd.isna(t) else f"<span style='color:{TIER_COLORS[t]}'>&#9679;</span> {t}"
+
 rows = "".join(
-    f"<tr><td>{html.escape(r.Partner)}</td><td>{html.escape(r.Category)}</td>"
-    f"<td><span style='color:{TIER_COLORS[r.Tier]}'>&#9679;</span> {r.Tier}</td>"
-    f"<td>{r.Exclusive}</td><td>{r.Started}</td></tr>" for r in tbl.itertuples())
-c3.markdown(f'<div class="box tblbox"><h4>All Tiered Partners</h4><table class="ptbl"><thead><tr>'
-            f'<th>Partner</th><th>Category</th><th>Tier</th><th>Exclusive</th><th>Started</th></tr></thead>'
-            f'<tbody>{rows}</tbody></table></div>', unsafe_allow_html=True)
+    f"<tr><td>{html.escape(r.partner)}</td><td>{html.escape(str(r.industry))}</td>"
+    f"<td>{html.escape(str(r.status).capitalize())}</td><td>{tier_cell(r.Tier)}</td>"
+    f"<td>{cell(r.Exclusive)}</td><td>{'&ndash;' if pd.isna(r.Year) else int(r.Year)}</td></tr>"
+    for r in allp.itertuples())
+c3.markdown(f'<div class="box tblbox"><h4>All Partners ({len(allp)})</h4><div class="tscroll">'
+            f'<table class="ptbl"><thead><tr><th>Partner</th><th>Industry</th><th>Status</th><th>Tier</th>'
+            f'<th>Exclusive</th><th>Started</th></tr></thead><tbody>{rows}</tbody></table></div></div>',
+            unsafe_allow_html=True)
 
 # ---------- row 3: ideas + caveats ----------
 c4, c5 = st.columns(2)
