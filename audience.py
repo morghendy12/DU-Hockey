@@ -24,6 +24,8 @@ div[data-testid="stVerticalBlock"], div[data-testid="stHorizontalBlock"] {{gap:1
 header[data-testid="stHeader"] {{background:transparent;}}
 section[data-testid="stSidebar"] {{background:{PAGE}; border-right:none;}}
 section[data-testid="stSidebar"] > div {{background:{PAGE};}}
+section[data-testid="stSidebar"] {{width:170px !important; min-width:170px !important;}}
+section[data-testid="stSidebar"] > div {{width:170px !important;}}
 .band {{background:{MAROON}; color:#F8F5EE; padding:10px 20px; border-radius:8px; margin:0;}}
 .band h1 {{color:#F8F5EE; font-size:1.35rem; margin:0; padding:0; line-height:1.3;}}
 .band p {{color:{GOLD}; margin:0; font-size:.8rem;}}
