@@ -27,7 +27,7 @@ header[data-testid="stHeader"] {{background:transparent;}}
 .card .t {{background:{BORDER}; color:{TEXT}; font-size:.8rem; font-weight:600; padding:6px;}}
 .card .v {{font-size:2.1rem; font-weight:600; color:{TEXT}; padding-top:8px;}}
 .card .s {{font-size:.75rem; color:{MUTED};}}
-.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:14px 18px;}}
+.box {{background:{PANEL}; border:1px solid {BORDER}; border-radius:8px; padding:14px 18px; box-sizing:border-box; height:392px; overflow:hidden;}}
 .box h4 {{margin:0 0 6px 0; font-size:1rem;}}
 .box li {{margin-bottom:6px; font-size:.92rem;}}
 .foot {{color:{MUTED}; font-size:.78rem; margin-top:8px;}}
@@ -121,6 +121,8 @@ c3.plotly_chart(style(ifig, 440, "Income Share"), width="stretch")
 
 
 # ---------- row 3: regions + map + takeaways ----------
+_, t5, _ = st.columns([1, 1.4, 1])
+view = t5.radio("Map view", ["Denver area", "Entire US"], horizontal=True, label_visibility="collapsed")
 c4, c5, c6 = st.columns([1, 1.4, 1])
 rc = reg["region"].map(nice).value_counts().sort_values()
 rfig = go.Figure(go.Bar(x=rc.values, y=rc.index, orientation="h", marker_color=MAROON,
@@ -130,7 +132,6 @@ c4.plotly_chart(style(rfig, 390, "Respondents by Region"), width="stretch")
 
 pts = (d.dropna(subset=["lat", "long"]).groupby(["zip", "lat", "long"]).size()
        .reset_index(name="n"))
-view = c5.radio("Map view", ["Denver area", "Entire US"], horizontal=True, label_visibility="collapsed")
 if view == "Denver area":
     mfig = px.scatter_map(pts, lat="lat", lon="long", size="n", hover_name="zip",
                           hover_data={"n": True, "lat": False, "long": False},
