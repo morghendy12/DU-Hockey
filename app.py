@@ -146,10 +146,11 @@ DENVER = dict(center=dict(lat=39.68, lon=-104.95), zoom=8.3)
 US = dict(center=dict(lat=38.5, lon=-96.5), zoom=2.9)
 mfig = style(mfig, 390, "Respondents by Zip Code")
 mfig.update_layout(
+    title=dict(y=1 - 30 / 390, yref="container", yanchor="middle"),   # title centered 30px from the top
     margin=dict(l=0, r=0, t=60, b=0),
     map=dict(style="carto-positron", layers=[dict(sourcetype="geojson", source=states, type="line",
                                                   color="#8A8272", line=dict(width=1))], **DENVER),
-    updatemenus=[dict(type="buttons", direction="right", active=0, x=0, xanchor="left", pad=dict(l=215, t=0, b=0, r=0), y=1.09, yanchor="middle",
+    updatemenus=[dict(type="buttons", direction="right", active=0, x=0, xanchor="left", pad=dict(l=185, t=0, b=0, r=0), y=1.09, yanchor="middle",
                       bgcolor=PANEL, bordercolor=BORDER, font=dict(size=11, color=TEXT),
                       buttons=[dict(label="Denver Area", method="relayout",
                                     args=[{"map.center": DENVER["center"], "map.zoom": DENVER["zoom"]}]),
